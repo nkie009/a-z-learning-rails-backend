@@ -1045,3 +1045,540 @@ Processing by WordsController#index as HTML
 Completed 200 OK in 73ms (Views: 44.0ms | ActiveRecord: 25.6ms)
 
 
+Started GET "/words" for 127.0.0.1 at 2022-03-13 13:14:39 +1100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (126.0ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/controllers/words_controller.rb:4
+Completed 200 OK in 331ms (Views: 184.1ms | ActiveRecord: 126.0ms)
+
+
+Started GET "/words" for 127.0.0.1 at 2022-03-13 13:15:14 +1100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (1.3ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/controllers/words_controller.rb:4
+Completed 200 OK in 151ms (Views: 144.9ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/words" for 127.0.0.1 at 2022-03-13 13:15:15 +1100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (1.3ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/controllers/words_controller.rb:4
+Completed 200 OK in 100ms (Views: 98.1ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/words" for 127.0.0.1 at 2022-03-13 13:15:18 +1100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (30.6ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/controllers/words_controller.rb:4
+Completed 200 OK in 124ms (Views: 93.4ms | ActiveRecord: 30.6ms)
+
+
+Started GET "/words" for 127.0.0.1 at 2022-03-13 13:36:06 +1100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (41.3ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/controllers/words_controller.rb:4
+Completed 200 OK in 197ms (Views: 142.4ms | ActiveRecord: 41.3ms)
+
+
+Started GET "/words" for 127.0.0.1 at 2022-03-13 13:36:08 +1100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (31.3ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/controllers/words_controller.rb:4
+Completed 200 OK in 180ms (Views: 148.5ms | ActiveRecord: 31.3ms)
+
+
+Started GET "/words" for 127.0.0.1 at 2022-03-13 13:43:25 +1100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (7.2ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/controllers/words_controller.rb:4
+Completed 200 OK in 74ms (Views: 63.2ms | ActiveRecord: 7.2ms)
+
+
+Started GET "/words" for 127.0.0.1 at 2022-03-13 13:44:06 +1100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (10.8ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/controllers/words_controller.rb:4
+Completed 200 OK in 87ms (Views: 67.6ms | ActiveRecord: 10.8ms)
+
+
+Started GET "/words" for 127.0.0.1 at 2022-03-13 13:44:37 +1100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (4.6ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/controllers/words_controller.rb:4
+Completed 200 OK in 114ms (Views: 105.7ms | ActiveRecord: 4.6ms)
+
+
+Started GET "/words" for 127.0.0.1 at 2022-03-13 13:44:38 +1100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (3.4ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/controllers/words_controller.rb:4
+Completed 200 OK in 136ms (Views: 132.4ms | ActiveRecord: 3.4ms)
+
+
+Started GET "/words" for 127.0.0.1 at 2022-03-13 13:44:40 +1100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (1.6ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/controllers/words_controller.rb:4
+Completed 200 OK in 300ms (Views: 297.2ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/words" for 127.0.0.1 at 2022-03-13 13:44:54 +1100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (1.2ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/controllers/words_controller.rb:4
+Completed 200 OK in 705ms (Views: 694.5ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/words" for 127.0.0.1 at 2022-03-13 13:59:39 +1100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (28.2ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/controllers/words_controller.rb:4
+Completed 200 OK in 207ms (Views: 171.8ms | ActiveRecord: 28.2ms)
+
+
+Started GET "/words" for 127.0.0.1 at 2022-03-13 14:00:47 +1100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (29.8ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/controllers/words_controller.rb:4
+Completed 200 OK in 283ms (Views: 248.1ms | ActiveRecord: 29.8ms)
+
+
+Started GET "/words/8" for 127.0.0.1 at 2022-03-13 14:01:56 +1100
+Processing by WordsController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mWord Load (27.8ms)[0m  [1m[34mSELECT  "words".* FROM "words" WHERE "words"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:8
+Completed 200 OK in 294ms (Views: 4.1ms | ActiveRecord: 38.2ms)
+
+
+Started GET "/words" for 127.0.0.1 at 2022-03-13 14:02:02 +1100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (6.0ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/controllers/words_controller.rb:4
+Completed 200 OK in 107ms (Views: 100.3ms | ActiveRecord: 6.0ms)
+
+
+Started GET "/words" for 127.0.0.1 at 2022-03-13 14:23:20 +1100
+Started GET "/words" for 127.0.0.1 at 2022-03-13 14:23:20 +1100
+Processing by WordsController#index as HTML
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (329.5ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/controllers/words_controller.rb:4
+Completed 200 OK in 451ms (Views: 115.9ms | ActiveRecord: 329.5ms)
+
+
+  [1m[36mWord Load (399.0ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/controllers/words_controller.rb:4
+Completed 200 OK in 547ms (Views: 147.8ms | ActiveRecord: 399.0ms)
+
+
+Started GET "/words" for 127.0.0.1 at 2022-03-13 14:23:24 +1100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (232.2ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/controllers/words_controller.rb:4
+Completed 200 OK in 577ms (Views: 344.5ms | ActiveRecord: 232.2ms)
+
+
+Started GET "/words" for 127.0.0.1 at 2022-03-13 14:24:07 +1100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (190.8ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/controllers/words_controller.rb:4
+Completed 200 OK in 611ms (Views: 406.9ms | ActiveRecord: 190.8ms)
+
+
+Started GET "/words" for 127.0.0.1 at 2022-03-13 14:29:28 +1100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (454.1ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/controllers/words_controller.rb:4
+Completed 200 OK in 815ms (Views: 330.8ms | ActiveRecord: 454.1ms)
+
+
+Started GET "/words" for 127.0.0.1 at 2022-03-13 14:30:21 +1100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (252.0ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/controllers/words_controller.rb:4
+Completed 200 OK in 1175ms (Views: 878.3ms | ActiveRecord: 252.0ms)
+
+
+Started GET "/words" for 127.0.0.1 at 2022-03-13 14:30:25 +1100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (0.9ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/controllers/words_controller.rb:4
+Completed 200 OK in 160ms (Views: 153.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2022-03-13 14:33:52 +1100
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/Phoebe/.rvm/gems/ruby-2.7.0/gems/railties-5.2.7/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/Phoebe/.rvm/gems/ruby-2.7.0/gems/railties-5.2.7/lib/rails/templates/rails/welcome/index.html.erb (328.3ms)
+Completed 200 OK in 614ms (Views: 445.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images" for 127.0.0.1 at 2022-03-13 14:34:12 +1100
+  
+ActionController::RoutingError (No route matches [GET] "/images"):
+  
+actionpack (5.2.7) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.7) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.7) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.7) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.7) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.7) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.7) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.7) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.7) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/words" for 127.0.0.1 at 2022-03-13 14:34:30 +1100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (6.0ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/controllers/words_controller.rb:4
+Completed 200 OK in 61ms (Views: 54.0ms | ActiveRecord: 6.0ms)
+
+
+Started GET "/words/2" for 127.0.0.1 at 2022-03-13 14:34:41 +1100
+Processing by WordsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mWord Load (35.2ms)[0m  [1m[34mSELECT  "words".* FROM "words" WHERE "words"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/words_controller.rb:8
+Completed 200 OK in 127ms (Views: 11.9ms | ActiveRecord: 84.2ms)
+
+
+Started GET "/words/2/image_letters" for 127.0.0.1 at 2022-03-13 14:34:53 +1100
+  
+ActionController::RoutingError (No route matches [GET] "/words/2/image_letters"):
+  
+actionpack (5.2.7) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.7) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.7) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.7) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.7) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.7) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.7) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.7) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.7) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/words" for 127.0.0.1 at 2022-03-13 14:39:02 +1100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (426.6ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/controllers/words_controller.rb:4
+Completed 200 OK in 577ms (Views: 142.3ms | ActiveRecord: 426.6ms)
+
+
+Started GET "/words/assets/a.svg" for 127.0.0.1 at 2022-03-13 14:39:05 +1100
+  
+ActionController::RoutingError (No route matches [GET] "/words/assets/a.svg"):
+  
+actionpack (5.2.7) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.7) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.7) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.7) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.7) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.7) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.7) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.7) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.7) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/words/assets/b.svg" for 127.0.0.1 at 2022-03-13 14:39:05 +1100
+Started GET "/words/assets/c.svg" for 127.0.0.1 at 2022-03-13 14:39:05 +1100
+Started GET "/words/assets/d.svg" for 127.0.0.1 at 2022-03-13 14:39:05 +1100
+Started GET "/words/assets/e.svg" for 127.0.0.1 at 2022-03-13 14:39:05 +1100
+Started GET "/words/assets/f.svg" for 127.0.0.1 at 2022-03-13 14:39:06 +1100
+  
+ActionController::RoutingError (No route matches [GET] "/words/assets/f.svg"):
+  
+actionpack (5.2.7) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.7) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.7) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.7) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.7) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.7) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.7) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.7) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.7) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  
+ActionController::RoutingError (No route matches [GET] "/words/assets/d.svg"):
+  
+  
+actionpack (5.2.7) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.7) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.7) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.7) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.7) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.7) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.7) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.7) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.7) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  
+ActionController::RoutingError (No route matches [GET] "/words/assets/e.svg"):
+  
+actionpack (5.2.7) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.7) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.7) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.7) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.7) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.7) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.7) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.7) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.7) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  
+ActionController::RoutingError (No route matches [GET] "/words/assets/b.svg"):
+ActionController::RoutingError (No route matches [GET] "/words/assets/c.svg"):
+  
+  
+actionpack (5.2.7) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.7) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.7) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.7) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.7) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.7) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.7) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.7) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.7) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+actionpack (5.2.7) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.7) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.7) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.7) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.7) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.7) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.7) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.7) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.7) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/words" for 127.0.0.1 at 2022-03-13 14:40:04 +1100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (107.7ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/controllers/words_controller.rb:4
+Completed 200 OK in 375ms (Views: 265.3ms | ActiveRecord: 107.7ms)
+
+
+Started GET "/words" for 127.0.0.1 at 2022-03-13 14:42:36 +1100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (42.5ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/controllers/words_controller.rb:4
+Completed 200 OK in 762ms (Views: 80.1ms | ActiveRecord: 595.5ms)
+
+
+Started GET "/words" for 127.0.0.1 at 2022-03-13 14:42:39 +1100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (38.3ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/controllers/words_controller.rb:4
+Completed 200 OK in 193ms (Views: 153.9ms | ActiveRecord: 38.3ms)
+
+
+Started GET "/words" for 127.0.0.1 at 2022-03-13 14:49:56 +1100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (15.9ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/controllers/words_controller.rb:4
+Completed 200 OK in 100ms (Views: 74.6ms | ActiveRecord: 15.9ms)
+
+
+Started GET "/words" for 127.0.0.1 at 2022-03-13 14:50:50 +1100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (18.4ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/controllers/words_controller.rb:4
+Completed 200 OK in 354ms (Views: 329.7ms | ActiveRecord: 18.4ms)
+
+
+Started GET "/words" for 127.0.0.1 at 2022-03-13 14:59:49 +1100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (36.3ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/controllers/words_controller.rb:4
+Completed 200 OK in 179ms (Views: 141.1ms | ActiveRecord: 36.3ms)
+
+
+Started GET "/words" for 127.0.0.1 at 2022-03-13 15:00:12 +1100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (27.2ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/controllers/words_controller.rb:4
+Completed 200 OK in 171ms (Views: 137.5ms | ActiveRecord: 27.2ms)
+
+
+Started GET "/words" for 127.0.0.1 at 2022-03-13 15:04:06 +1100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (252.5ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/controllers/words_controller.rb:4
+Completed 200 OK in 406ms (Views: 114.9ms | ActiveRecord: 252.5ms)
+
+
+Started GET "/words" for 127.0.0.1 at 2022-03-13 15:06:21 +1100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (244.7ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/controllers/words_controller.rb:4
+Completed 200 OK in 402ms (Views: 148.6ms | ActiveRecord: 244.7ms)
+
+
+Started GET "/words" for 127.0.0.1 at 2022-03-13 15:10:05 +1100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (94.4ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/controllers/words_controller.rb:4
+Completed 200 OK in 224ms (Views: 119.1ms | ActiveRecord: 94.4ms)
+
+
+Started GET "/words" for 127.0.0.1 at 2022-03-13 15:10:07 +1100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (2.6ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/controllers/words_controller.rb:4
+Completed 200 OK in 94ms (Views: 87.7ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/words" for 127.0.0.1 at 2022-03-13 15:10:54 +1100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (12.4ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/controllers/words_controller.rb:4
+Completed 200 OK in 217ms (Views: 199.8ms | ActiveRecord: 12.4ms)
+
+
+Started GET "/words" for 127.0.0.1 at 2022-03-13 15:11:36 +1100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (28.1ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/controllers/words_controller.rb:4
+Completed 200 OK in 249ms (Views: 215.7ms | ActiveRecord: 28.1ms)
+
+
+Started GET "/words" for 127.0.0.1 at 2022-03-13 15:15:28 +1100
+Processing by WordsController#index as HTML
+  [1m[36mWord Load (558.9ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/controllers/words_controller.rb:4
+Completed 200 OK in 655ms (Views: 92.2ms | ActiveRecord: 558.9ms)
+
+
