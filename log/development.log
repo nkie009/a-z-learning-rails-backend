@@ -1582,3 +1582,2011 @@ Processing by WordsController#index as HTML
 Completed 200 OK in 655ms (Views: 92.2ms | ActiveRecord: 558.9ms)
 
 
+  [1m[35m (8.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+  [1m[35m (2.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(5902462855896932115)[0m
+  ↳ bin/rails:4
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+Migrating to CreateWords (20220312002157)
+  [1m[35m (6.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:4
+  [1m[35m (109.5ms)[0m  [1m[35mDROP TABLE "words"[0m
+  ↳ bin/rails:4
+  [1m[36mActiveRecord::SchemaMigration Destroy (5.2ms)[0m  [1m[31mDELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = $1[0m  [["version", "20220312002157"]]
+  ↳ bin/rails:4
+  [1m[35m (73.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:4
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT pg_advisory_unlock(5902462855896932115)[0m
+  ↳ bin/rails:4
+  [1m[35m (6.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(5902462855896932115)[0m
+  ↳ bin/rails:4
+  [1m[35m (3.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+Migrating to CreateWords (20220312002157)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:4
+  [1m[35m (154.0ms)[0m  [1m[35mCREATE TABLE "words" ("id" bigserial primary key, "item" character varying, "image_items" character varying, "definition" text, "character" text, "alphabet_id" integer, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/migrate/20220312002157_create_words.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (2.8ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20220312002157"]]
+  ↳ bin/rails:4
+  [1m[35m (1.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:4
+Migrating to CreateAlphabets (20220313065552)
+  [1m[35m (6.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:4
+  [1m[35m (19.9ms)[0m  [1m[35mCREATE TABLE "alphabets" ("id" bigserial primary key, "image" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ db/migrate/20220313065552_create_alphabets.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20220313065552"]]
+  ↳ bin/rails:4
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:4
+  [1m[36mActiveRecord::InternalMetadata Load (29.9ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:4
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ bin/rails:4
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ bin/rails:4
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT pg_advisory_unlock(5902462855896932115)[0m
+  ↳ bin/rails:4
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+  [1m[35m (2.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+  [1m[35m (3.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+  [1m[35m (2.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+  [1m[36mAlphabet Load (31.6ms)[0m  [1m[34mSELECT "alphabets".* FROM "alphabets"[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:5
+  [1m[36mAlphabet Create (3.8ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "a.svg"], ["created_at", "2022-03-13 07:05:58.806067"], ["updated_at", "2022-03-13 07:05:58.806067"]]
+  ↳ db/seeds.rb:5
+  [1m[35m (1.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:5
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:6
+  [1m[36mAlphabet Create (0.5ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "b.svg"], ["created_at", "2022-03-13 07:05:58.814475"], ["updated_at", "2022-03-13 07:05:58.814475"]]
+  ↳ db/seeds.rb:6
+  [1m[35m (1.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:6
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:7
+  [1m[36mAlphabet Create (0.4ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "c.svg"], ["created_at", "2022-03-13 07:05:58.818442"], ["updated_at", "2022-03-13 07:05:58.818442"]]
+  ↳ db/seeds.rb:7
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:7
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:8
+  [1m[36mAlphabet Create (0.5ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "d.svg"], ["created_at", "2022-03-13 07:05:58.821403"], ["updated_at", "2022-03-13 07:05:58.821403"]]
+  ↳ db/seeds.rb:8
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:8
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mAlphabet Create (0.5ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "e.svg"], ["created_at", "2022-03-13 07:05:58.825061"], ["updated_at", "2022-03-13 07:05:58.825061"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:10
+  [1m[36mAlphabet Create (0.8ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "f.svg"], ["created_at", "2022-03-13 07:05:58.828018"], ["updated_at", "2022-03-13 07:05:58.828018"]]
+  ↳ db/seeds.rb:10
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:11
+  [1m[36mAlphabet Create (0.7ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "g.svg"], ["created_at", "2022-03-13 07:05:58.831017"], ["updated_at", "2022-03-13 07:05:58.831017"]]
+  ↳ db/seeds.rb:11
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:11
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:12
+  [1m[36mAlphabet Create (0.4ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "h.svg"], ["created_at", "2022-03-13 07:05:58.834290"], ["updated_at", "2022-03-13 07:05:58.834290"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:13
+  [1m[36mAlphabet Create (0.5ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "i.svg"], ["created_at", "2022-03-13 07:05:58.836651"], ["updated_at", "2022-03-13 07:05:58.836651"]]
+  ↳ db/seeds.rb:13
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:13
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:14
+  [1m[36mAlphabet Create (0.6ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "j.svg"], ["created_at", "2022-03-13 07:05:58.839341"], ["updated_at", "2022-03-13 07:05:58.839341"]]
+  ↳ db/seeds.rb:14
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:14
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:15
+  [1m[36mAlphabet Create (0.4ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "k.svg"], ["created_at", "2022-03-13 07:05:58.842471"], ["updated_at", "2022-03-13 07:05:58.842471"]]
+  ↳ db/seeds.rb:15
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:16
+  [1m[36mAlphabet Create (0.4ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "l.svg"], ["created_at", "2022-03-13 07:05:58.844756"], ["updated_at", "2022-03-13 07:05:58.844756"]]
+  ↳ db/seeds.rb:16
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:16
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:17
+  [1m[36mAlphabet Create (0.9ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "m.svg"], ["created_at", "2022-03-13 07:05:58.847347"], ["updated_at", "2022-03-13 07:05:58.847347"]]
+  ↳ db/seeds.rb:17
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:17
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:18
+  [1m[36mAlphabet Create (0.4ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "n.svg"], ["created_at", "2022-03-13 07:05:58.850932"], ["updated_at", "2022-03-13 07:05:58.850932"]]
+  ↳ db/seeds.rb:18
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:18
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:19
+  [1m[36mAlphabet Create (0.4ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "o.svg"], ["created_at", "2022-03-13 07:05:58.853255"], ["updated_at", "2022-03-13 07:05:58.853255"]]
+  ↳ db/seeds.rb:19
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:19
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:20
+  [1m[36mAlphabet Create (0.6ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "p.svg"], ["created_at", "2022-03-13 07:05:58.856388"], ["updated_at", "2022-03-13 07:05:58.856388"]]
+  ↳ db/seeds.rb:20
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:20
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:21
+  [1m[36mAlphabet Create (2.1ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "q.svg"], ["created_at", "2022-03-13 07:05:58.859608"], ["updated_at", "2022-03-13 07:05:58.859608"]]
+  ↳ db/seeds.rb:21
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:21
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:22
+  [1m[36mAlphabet Create (0.5ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "r.svg"], ["created_at", "2022-03-13 07:05:58.864883"], ["updated_at", "2022-03-13 07:05:58.864883"]]
+  ↳ db/seeds.rb:22
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:22
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:23
+  [1m[36mAlphabet Create (0.4ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "s.svg"], ["created_at", "2022-03-13 07:05:58.867822"], ["updated_at", "2022-03-13 07:05:58.867822"]]
+  ↳ db/seeds.rb:23
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:23
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:24
+  [1m[36mAlphabet Create (0.4ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "t.svg"], ["created_at", "2022-03-13 07:05:58.870184"], ["updated_at", "2022-03-13 07:05:58.870184"]]
+  ↳ db/seeds.rb:24
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:24
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:25
+  [1m[36mAlphabet Create (0.4ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "u.svg"], ["created_at", "2022-03-13 07:05:58.873038"], ["updated_at", "2022-03-13 07:05:58.873038"]]
+  ↳ db/seeds.rb:25
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:25
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:26
+  [1m[36mAlphabet Create (0.4ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "v.svg"], ["created_at", "2022-03-13 07:05:58.875487"], ["updated_at", "2022-03-13 07:05:58.875487"]]
+  ↳ db/seeds.rb:26
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:26
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:27
+  [1m[36mAlphabet Create (0.4ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "w.svg"], ["created_at", "2022-03-13 07:05:58.877649"], ["updated_at", "2022-03-13 07:05:58.877649"]]
+  ↳ db/seeds.rb:27
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:27
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:28
+  [1m[36mAlphabet Create (0.6ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "x.svg"], ["created_at", "2022-03-13 07:05:58.880341"], ["updated_at", "2022-03-13 07:05:58.880341"]]
+  ↳ db/seeds.rb:28
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:28
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:29
+  [1m[36mAlphabet Create (0.4ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "y.svg"], ["created_at", "2022-03-13 07:05:58.883716"], ["updated_at", "2022-03-13 07:05:58.883716"]]
+  ↳ db/seeds.rb:29
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:29
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:30
+  [1m[36mAlphabet Create (0.3ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "z.svg"], ["created_at", "2022-03-13 07:05:58.885919"], ["updated_at", "2022-03-13 07:05:58.885919"]]
+  ↳ db/seeds.rb:30
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:30
+  [1m[35m (3.7ms)[0m  [1m[34mSELECT COUNT(*) FROM "alphabets"[0m
+  ↳ db/seeds.rb:32
+  [1m[36mWord Load (18.6ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:40
+  [1m[35m (53.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:40
+  [1m[35m (3.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+  [1m[36mAlphabet Load (13.2ms)[0m  [1m[34mSELECT "alphabets".* FROM "alphabets"[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (1.2ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 1]]
+  ↳ db/seeds.rb:3
+  [1m[35m (20.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.6ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 2]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.6ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 3]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.6ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 4]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.5ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 5]]
+  ↳ db/seeds.rb:3
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.4ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 6]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.4ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 7]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.5ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 8]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.5ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 9]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (2.0ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 10]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.6ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 11]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.5ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 12]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.5ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 13]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.4ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 14]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.3ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 15]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.3ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 16]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.4ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 17]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.4ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 18]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.4ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 19]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.5ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 20]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.4ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 21]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.4ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 22]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.3ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 23]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.4ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 24]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.3ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 25]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.4ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 26]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:5
+  [1m[36mAlphabet Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "alphabets" WHERE "alphabets"."image" = $1 LIMIT $2[0m  [["image", "a.svg"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:5
+  [1m[36mAlphabet Create (0.6ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "a.svg"], ["created_at", "2022-03-13 07:07:46.349602"], ["updated_at", "2022-03-13 07:07:46.349602"]]
+  ↳ db/seeds.rb:5
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:5
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:6
+  [1m[36mAlphabet Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "alphabets" WHERE "alphabets"."image" = $1 LIMIT $2[0m  [["image", "b.svg"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:6
+  [1m[36mAlphabet Create (1.0ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "b.svg"], ["created_at", "2022-03-13 07:07:46.353853"], ["updated_at", "2022-03-13 07:07:46.353853"]]
+  ↳ db/seeds.rb:6
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:6
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:7
+  [1m[36mAlphabet Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM "alphabets" WHERE "alphabets"."image" = $1 LIMIT $2[0m  [["image", "c.svg"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:7
+  [1m[36mAlphabet Create (0.5ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "c.svg"], ["created_at", "2022-03-13 07:07:46.358732"], ["updated_at", "2022-03-13 07:07:46.358732"]]
+  ↳ db/seeds.rb:7
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:7
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:8
+  [1m[36mAlphabet Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "alphabets" WHERE "alphabets"."image" = $1 LIMIT $2[0m  [["image", "d.svg"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:8
+  [1m[36mAlphabet Create (0.4ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "d.svg"], ["created_at", "2022-03-13 07:07:46.362076"], ["updated_at", "2022-03-13 07:07:46.362076"]]
+  ↳ db/seeds.rb:8
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:8
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mAlphabet Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "alphabets" WHERE "alphabets"."image" = $1 LIMIT $2[0m  [["image", "e.svg"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:9
+  [1m[36mAlphabet Create (0.6ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "e.svg"], ["created_at", "2022-03-13 07:07:46.365198"], ["updated_at", "2022-03-13 07:07:46.365198"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:10
+  [1m[36mAlphabet Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "alphabets" WHERE "alphabets"."image" = $1 LIMIT $2[0m  [["image", "f.svg"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:10
+  [1m[36mAlphabet Create (0.4ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "f.svg"], ["created_at", "2022-03-13 07:07:46.369301"], ["updated_at", "2022-03-13 07:07:46.369301"]]
+  ↳ db/seeds.rb:10
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:11
+  [1m[36mAlphabet Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "alphabets" WHERE "alphabets"."image" = $1 LIMIT $2[0m  [["image", "g.svg"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:11
+  [1m[36mAlphabet Create (0.4ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "g.svg"], ["created_at", "2022-03-13 07:07:46.373131"], ["updated_at", "2022-03-13 07:07:46.373131"]]
+  ↳ db/seeds.rb:11
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:11
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:12
+  [1m[36mAlphabet Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "alphabets" WHERE "alphabets"."image" = $1 LIMIT $2[0m  [["image", "h.svg"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:12
+  [1m[36mAlphabet Create (0.4ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "h.svg"], ["created_at", "2022-03-13 07:07:46.376764"], ["updated_at", "2022-03-13 07:07:46.376764"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:13
+  [1m[36mAlphabet Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "alphabets" WHERE "alphabets"."image" = $1 LIMIT $2[0m  [["image", "i.svg"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:13
+  [1m[36mAlphabet Create (0.4ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "i.svg"], ["created_at", "2022-03-13 07:07:46.380802"], ["updated_at", "2022-03-13 07:07:46.380802"]]
+  ↳ db/seeds.rb:13
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:13
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:14
+  [1m[36mAlphabet Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "alphabets" WHERE "alphabets"."image" = $1 LIMIT $2[0m  [["image", "j.svg"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:14
+  [1m[36mAlphabet Create (0.4ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "j.svg"], ["created_at", "2022-03-13 07:07:46.384595"], ["updated_at", "2022-03-13 07:07:46.384595"]]
+  ↳ db/seeds.rb:14
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:14
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:15
+  [1m[36mAlphabet Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "alphabets" WHERE "alphabets"."image" = $1 LIMIT $2[0m  [["image", "k.svg"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:15
+  [1m[36mAlphabet Create (0.4ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "k.svg"], ["created_at", "2022-03-13 07:07:46.387931"], ["updated_at", "2022-03-13 07:07:46.387931"]]
+  ↳ db/seeds.rb:15
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:16
+  [1m[36mAlphabet Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "alphabets" WHERE "alphabets"."image" = $1 LIMIT $2[0m  [["image", "l.svg"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:16
+  [1m[36mAlphabet Create (0.3ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "l.svg"], ["created_at", "2022-03-13 07:07:46.390882"], ["updated_at", "2022-03-13 07:07:46.390882"]]
+  ↳ db/seeds.rb:16
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:16
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:17
+  [1m[36mAlphabet Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "alphabets" WHERE "alphabets"."image" = $1 LIMIT $2[0m  [["image", "m.svg"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:17
+  [1m[36mAlphabet Create (0.5ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "m.svg"], ["created_at", "2022-03-13 07:07:46.395069"], ["updated_at", "2022-03-13 07:07:46.395069"]]
+  ↳ db/seeds.rb:17
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:17
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:18
+  [1m[36mAlphabet Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "alphabets" WHERE "alphabets"."image" = $1 LIMIT $2[0m  [["image", "n.svg"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:18
+  [1m[36mAlphabet Create (0.4ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "n.svg"], ["created_at", "2022-03-13 07:07:46.399211"], ["updated_at", "2022-03-13 07:07:46.399211"]]
+  ↳ db/seeds.rb:18
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:18
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:19
+  [1m[36mAlphabet Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "alphabets" WHERE "alphabets"."image" = $1 LIMIT $2[0m  [["image", "o.svg"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:19
+  [1m[36mAlphabet Create (0.4ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "o.svg"], ["created_at", "2022-03-13 07:07:46.402606"], ["updated_at", "2022-03-13 07:07:46.402606"]]
+  ↳ db/seeds.rb:19
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:19
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:20
+  [1m[36mAlphabet Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "alphabets" WHERE "alphabets"."image" = $1 LIMIT $2[0m  [["image", "p.svg"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:20
+  [1m[36mAlphabet Create (0.5ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "p.svg"], ["created_at", "2022-03-13 07:07:46.406393"], ["updated_at", "2022-03-13 07:07:46.406393"]]
+  ↳ db/seeds.rb:20
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:20
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:21
+  [1m[36mAlphabet Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "alphabets" WHERE "alphabets"."image" = $1 LIMIT $2[0m  [["image", "q.svg"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:21
+  [1m[36mAlphabet Create (0.4ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "q.svg"], ["created_at", "2022-03-13 07:07:46.410501"], ["updated_at", "2022-03-13 07:07:46.410501"]]
+  ↳ db/seeds.rb:21
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:21
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:22
+  [1m[36mAlphabet Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "alphabets" WHERE "alphabets"."image" = $1 LIMIT $2[0m  [["image", "r.svg"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:22
+  [1m[36mAlphabet Create (0.4ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "r.svg"], ["created_at", "2022-03-13 07:07:46.413861"], ["updated_at", "2022-03-13 07:07:46.413861"]]
+  ↳ db/seeds.rb:22
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:22
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:23
+  [1m[36mAlphabet Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "alphabets" WHERE "alphabets"."image" = $1 LIMIT $2[0m  [["image", "s.svg"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:23
+  [1m[36mAlphabet Create (0.4ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "s.svg"], ["created_at", "2022-03-13 07:07:46.416880"], ["updated_at", "2022-03-13 07:07:46.416880"]]
+  ↳ db/seeds.rb:23
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:23
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:24
+  [1m[36mAlphabet Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "alphabets" WHERE "alphabets"."image" = $1 LIMIT $2[0m  [["image", "t.svg"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:24
+  [1m[36mAlphabet Create (0.4ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "t.svg"], ["created_at", "2022-03-13 07:07:46.420915"], ["updated_at", "2022-03-13 07:07:46.420915"]]
+  ↳ db/seeds.rb:24
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:24
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:25
+  [1m[36mAlphabet Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "alphabets" WHERE "alphabets"."image" = $1 LIMIT $2[0m  [["image", "u.svg"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:25
+  [1m[36mAlphabet Create (0.4ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "u.svg"], ["created_at", "2022-03-13 07:07:46.425023"], ["updated_at", "2022-03-13 07:07:46.425023"]]
+  ↳ db/seeds.rb:25
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:25
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:26
+  [1m[36mAlphabet Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "alphabets" WHERE "alphabets"."image" = $1 LIMIT $2[0m  [["image", "v.svg"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:26
+  [1m[36mAlphabet Create (0.4ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "v.svg"], ["created_at", "2022-03-13 07:07:46.428555"], ["updated_at", "2022-03-13 07:07:46.428555"]]
+  ↳ db/seeds.rb:26
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:26
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:27
+  [1m[36mAlphabet Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "alphabets" WHERE "alphabets"."image" = $1 LIMIT $2[0m  [["image", "w.svg"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:27
+  [1m[36mAlphabet Create (0.4ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "w.svg"], ["created_at", "2022-03-13 07:07:46.431874"], ["updated_at", "2022-03-13 07:07:46.431874"]]
+  ↳ db/seeds.rb:27
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:27
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:28
+  [1m[36mAlphabet Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "alphabets" WHERE "alphabets"."image" = $1 LIMIT $2[0m  [["image", "x.svg"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:28
+  [1m[36mAlphabet Create (0.4ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "x.svg"], ["created_at", "2022-03-13 07:07:46.435360"], ["updated_at", "2022-03-13 07:07:46.435360"]]
+  ↳ db/seeds.rb:28
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:28
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:29
+  [1m[36mAlphabet Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "alphabets" WHERE "alphabets"."image" = $1 LIMIT $2[0m  [["image", "y.svg"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:29
+  [1m[36mAlphabet Create (0.4ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "y.svg"], ["created_at", "2022-03-13 07:07:46.438753"], ["updated_at", "2022-03-13 07:07:46.438753"]]
+  ↳ db/seeds.rb:29
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:29
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:30
+  [1m[36mAlphabet Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "alphabets" WHERE "alphabets"."image" = $1 LIMIT $2[0m  [["image", "z.svg"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:30
+  [1m[36mAlphabet Create (0.4ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "z.svg"], ["created_at", "2022-03-13 07:07:46.442069"], ["updated_at", "2022-03-13 07:07:46.442069"]]
+  ↳ db/seeds.rb:30
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:30
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "alphabets"[0m
+  ↳ db/seeds.rb:32
+  [1m[36mWord Load (1.6ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:40
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:40
+  [1m[35m (9.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+  [1m[36mAlphabet Load (14.0ms)[0m  [1m[34mSELECT "alphabets".* FROM "alphabets"[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (1.0ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 27]]
+  ↳ db/seeds.rb:3
+  [1m[35m (12.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.6ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 28]]
+  ↳ db/seeds.rb:3
+  [1m[35m (6.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.7ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 29]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.6ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 30]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.5ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 31]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.5ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 32]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.4ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 33]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.4ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 34]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.5ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 35]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.4ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 36]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.4ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 37]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.4ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 38]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.3ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 39]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.4ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 40]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.5ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 41]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.5ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 42]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.4ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 43]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.5ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 44]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.5ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 45]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.4ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 46]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.4ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 47]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.3ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 48]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.3ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 49]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.3ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 50]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.3ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 51]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.4ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 52]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:5
+  [1m[36mAlphabet Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM "alphabets" WHERE "alphabets"."image" = $1 LIMIT $2[0m  [["image", "a.svg"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:5
+  [1m[36mAlphabet Create (0.7ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "a.svg"], ["created_at", "2022-03-13 07:07:53.808934"], ["updated_at", "2022-03-13 07:07:53.808934"]]
+  ↳ db/seeds.rb:5
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:5
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:6
+  [1m[36mAlphabet Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "alphabets" WHERE "alphabets"."image" = $1 LIMIT $2[0m  [["image", "b.svg"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:6
+  [1m[36mAlphabet Create (0.4ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "b.svg"], ["created_at", "2022-03-13 07:07:53.813314"], ["updated_at", "2022-03-13 07:07:53.813314"]]
+  ↳ db/seeds.rb:6
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:6
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:7
+  [1m[36mAlphabet Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "alphabets" WHERE "alphabets"."image" = $1 LIMIT $2[0m  [["image", "c.svg"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:7
+  [1m[36mAlphabet Create (0.3ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "c.svg"], ["created_at", "2022-03-13 07:07:53.816352"], ["updated_at", "2022-03-13 07:07:53.816352"]]
+  ↳ db/seeds.rb:7
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:7
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:8
+  [1m[36mAlphabet Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "alphabets" WHERE "alphabets"."image" = $1 LIMIT $2[0m  [["image", "d.svg"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:8
+  [1m[36mAlphabet Create (0.4ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "d.svg"], ["created_at", "2022-03-13 07:07:53.820238"], ["updated_at", "2022-03-13 07:07:53.820238"]]
+  ↳ db/seeds.rb:8
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:8
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mAlphabet Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "alphabets" WHERE "alphabets"."image" = $1 LIMIT $2[0m  [["image", "e.svg"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:9
+  [1m[36mAlphabet Create (0.4ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "e.svg"], ["created_at", "2022-03-13 07:07:53.823983"], ["updated_at", "2022-03-13 07:07:53.823983"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:10
+  [1m[36mAlphabet Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "alphabets" WHERE "alphabets"."image" = $1 LIMIT $2[0m  [["image", "f.svg"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:10
+  [1m[36mAlphabet Create (0.4ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "f.svg"], ["created_at", "2022-03-13 07:07:53.827910"], ["updated_at", "2022-03-13 07:07:53.827910"]]
+  ↳ db/seeds.rb:10
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:11
+  [1m[36mAlphabet Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "alphabets" WHERE "alphabets"."image" = $1 LIMIT $2[0m  [["image", "g.svg"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:11
+  [1m[36mAlphabet Create (0.3ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "g.svg"], ["created_at", "2022-03-13 07:07:53.831264"], ["updated_at", "2022-03-13 07:07:53.831264"]]
+  ↳ db/seeds.rb:11
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:11
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:12
+  [1m[36mAlphabet Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "alphabets" WHERE "alphabets"."image" = $1 LIMIT $2[0m  [["image", "h.svg"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:12
+  [1m[36mAlphabet Create (0.4ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "h.svg"], ["created_at", "2022-03-13 07:07:53.834776"], ["updated_at", "2022-03-13 07:07:53.834776"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:13
+  [1m[36mAlphabet Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "alphabets" WHERE "alphabets"."image" = $1 LIMIT $2[0m  [["image", "i.svg"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:13
+  [1m[36mAlphabet Create (0.4ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "i.svg"], ["created_at", "2022-03-13 07:07:53.837999"], ["updated_at", "2022-03-13 07:07:53.837999"]]
+  ↳ db/seeds.rb:13
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:13
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:14
+  [1m[36mAlphabet Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "alphabets" WHERE "alphabets"."image" = $1 LIMIT $2[0m  [["image", "j.svg"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:14
+  [1m[36mAlphabet Create (0.4ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "j.svg"], ["created_at", "2022-03-13 07:07:53.841167"], ["updated_at", "2022-03-13 07:07:53.841167"]]
+  ↳ db/seeds.rb:14
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:14
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:15
+  [1m[36mAlphabet Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM "alphabets" WHERE "alphabets"."image" = $1 LIMIT $2[0m  [["image", "k.svg"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:15
+  [1m[36mAlphabet Create (0.4ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "k.svg"], ["created_at", "2022-03-13 07:07:53.844650"], ["updated_at", "2022-03-13 07:07:53.844650"]]
+  ↳ db/seeds.rb:15
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:16
+  [1m[36mAlphabet Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "alphabets" WHERE "alphabets"."image" = $1 LIMIT $2[0m  [["image", "l.svg"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:16
+  [1m[36mAlphabet Create (0.4ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "l.svg"], ["created_at", "2022-03-13 07:07:53.847929"], ["updated_at", "2022-03-13 07:07:53.847929"]]
+  ↳ db/seeds.rb:16
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:16
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:17
+  [1m[36mAlphabet Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "alphabets" WHERE "alphabets"."image" = $1 LIMIT $2[0m  [["image", "m.svg"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:17
+  [1m[36mAlphabet Create (0.4ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "m.svg"], ["created_at", "2022-03-13 07:07:53.851136"], ["updated_at", "2022-03-13 07:07:53.851136"]]
+  ↳ db/seeds.rb:17
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:17
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:18
+  [1m[36mAlphabet Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "alphabets" WHERE "alphabets"."image" = $1 LIMIT $2[0m  [["image", "n.svg"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:18
+  [1m[36mAlphabet Create (0.4ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "n.svg"], ["created_at", "2022-03-13 07:07:53.854482"], ["updated_at", "2022-03-13 07:07:53.854482"]]
+  ↳ db/seeds.rb:18
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:18
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:19
+  [1m[36mAlphabet Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "alphabets" WHERE "alphabets"."image" = $1 LIMIT $2[0m  [["image", "o.svg"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:19
+  [1m[36mAlphabet Create (0.4ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "o.svg"], ["created_at", "2022-03-13 07:07:53.858217"], ["updated_at", "2022-03-13 07:07:53.858217"]]
+  ↳ db/seeds.rb:19
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:19
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:20
+  [1m[36mAlphabet Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "alphabets" WHERE "alphabets"."image" = $1 LIMIT $2[0m  [["image", "p.svg"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:20
+  [1m[36mAlphabet Create (0.4ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "p.svg"], ["created_at", "2022-03-13 07:07:53.861625"], ["updated_at", "2022-03-13 07:07:53.861625"]]
+  ↳ db/seeds.rb:20
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:20
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:21
+  [1m[36mAlphabet Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "alphabets" WHERE "alphabets"."image" = $1 LIMIT $2[0m  [["image", "q.svg"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:21
+  [1m[36mAlphabet Create (0.3ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "q.svg"], ["created_at", "2022-03-13 07:07:53.864815"], ["updated_at", "2022-03-13 07:07:53.864815"]]
+  ↳ db/seeds.rb:21
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:21
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:22
+  [1m[36mAlphabet Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "alphabets" WHERE "alphabets"."image" = $1 LIMIT $2[0m  [["image", "r.svg"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:22
+  [1m[36mAlphabet Create (0.6ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "r.svg"], ["created_at", "2022-03-13 07:07:53.868834"], ["updated_at", "2022-03-13 07:07:53.868834"]]
+  ↳ db/seeds.rb:22
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:22
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:23
+  [1m[36mAlphabet Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "alphabets" WHERE "alphabets"."image" = $1 LIMIT $2[0m  [["image", "s.svg"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:23
+  [1m[36mAlphabet Create (0.4ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "s.svg"], ["created_at", "2022-03-13 07:07:53.873625"], ["updated_at", "2022-03-13 07:07:53.873625"]]
+  ↳ db/seeds.rb:23
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:23
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:24
+  [1m[36mAlphabet Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "alphabets" WHERE "alphabets"."image" = $1 LIMIT $2[0m  [["image", "t.svg"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:24
+  [1m[36mAlphabet Create (0.6ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "t.svg"], ["created_at", "2022-03-13 07:07:53.877623"], ["updated_at", "2022-03-13 07:07:53.877623"]]
+  ↳ db/seeds.rb:24
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:24
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:25
+  [1m[36mAlphabet Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "alphabets" WHERE "alphabets"."image" = $1 LIMIT $2[0m  [["image", "u.svg"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:25
+  [1m[36mAlphabet Create (0.5ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "u.svg"], ["created_at", "2022-03-13 07:07:53.881641"], ["updated_at", "2022-03-13 07:07:53.881641"]]
+  ↳ db/seeds.rb:25
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:25
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:26
+  [1m[36mAlphabet Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "alphabets" WHERE "alphabets"."image" = $1 LIMIT $2[0m  [["image", "v.svg"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:26
+  [1m[36mAlphabet Create (0.4ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "v.svg"], ["created_at", "2022-03-13 07:07:53.885140"], ["updated_at", "2022-03-13 07:07:53.885140"]]
+  ↳ db/seeds.rb:26
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:26
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:27
+  [1m[36mAlphabet Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "alphabets" WHERE "alphabets"."image" = $1 LIMIT $2[0m  [["image", "w.svg"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:27
+  [1m[36mAlphabet Create (0.8ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "w.svg"], ["created_at", "2022-03-13 07:07:53.889271"], ["updated_at", "2022-03-13 07:07:53.889271"]]
+  ↳ db/seeds.rb:27
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:27
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:28
+  [1m[36mAlphabet Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "alphabets" WHERE "alphabets"."image" = $1 LIMIT $2[0m  [["image", "x.svg"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:28
+  [1m[36mAlphabet Create (0.4ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "x.svg"], ["created_at", "2022-03-13 07:07:53.894016"], ["updated_at", "2022-03-13 07:07:53.894016"]]
+  ↳ db/seeds.rb:28
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:28
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:29
+  [1m[36mAlphabet Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "alphabets" WHERE "alphabets"."image" = $1 LIMIT $2[0m  [["image", "y.svg"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:29
+  [1m[36mAlphabet Create (0.4ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "y.svg"], ["created_at", "2022-03-13 07:07:53.897585"], ["updated_at", "2022-03-13 07:07:53.897585"]]
+  ↳ db/seeds.rb:29
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:29
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:30
+  [1m[36mAlphabet Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "alphabets" WHERE "alphabets"."image" = $1 LIMIT $2[0m  [["image", "z.svg"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:30
+  [1m[36mAlphabet Create (0.5ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "z.svg"], ["created_at", "2022-03-13 07:07:53.901085"], ["updated_at", "2022-03-13 07:07:53.901085"]]
+  ↳ db/seeds.rb:30
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:30
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "alphabets"[0m
+  ↳ db/seeds.rb:32
+  [1m[36mWord Load (1.3ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:40
+  [1m[35m (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:40
+  [1m[35m (2.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+  [1m[36mAlphabet Load (1.0ms)[0m  [1m[34mSELECT "alphabets".* FROM "alphabets"[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.9ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 53]]
+  ↳ db/seeds.rb:3
+  [1m[35m (6.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.5ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 54]]
+  ↳ db/seeds.rb:3
+  [1m[35m (6.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.6ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 55]]
+  ↳ db/seeds.rb:3
+  [1m[35m (6.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.6ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 56]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.6ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 57]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.7ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 58]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (1.1ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 59]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.5ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 60]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.4ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 61]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.6ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 62]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.5ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 63]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.5ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 64]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.3ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 65]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.3ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 66]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.3ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 67]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.3ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 68]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.3ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 69]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.3ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 70]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.4ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 71]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.3ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 72]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.4ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 73]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.4ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 74]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.4ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 75]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.3ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 76]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.3ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 77]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.3ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 78]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:5
+  [1m[36mAlphabet Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM "alphabets" WHERE "alphabets"."image" = $1 LIMIT $2[0m  [["image", "a.svg"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:5
+  [1m[36mAlphabet Create (0.9ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "a.svg"], ["created_at", "2022-03-13 07:08:06.188328"], ["updated_at", "2022-03-13 07:08:06.188328"]]
+  ↳ db/seeds.rb:5
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:5
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:6
+  [1m[36mAlphabet Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "alphabets" WHERE "alphabets"."image" = $1 LIMIT $2[0m  [["image", "b.svg"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:6
+  [1m[36mAlphabet Create (0.5ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "b.svg"], ["created_at", "2022-03-13 07:08:06.193405"], ["updated_at", "2022-03-13 07:08:06.193405"]]
+  ↳ db/seeds.rb:6
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:6
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:7
+  [1m[36mAlphabet Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "alphabets" WHERE "alphabets"."image" = $1 LIMIT $2[0m  [["image", "c.svg"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:7
+  [1m[36mAlphabet Create (0.4ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "c.svg"], ["created_at", "2022-03-13 07:08:06.197882"], ["updated_at", "2022-03-13 07:08:06.197882"]]
+  ↳ db/seeds.rb:7
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:7
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:8
+  [1m[36mAlphabet Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "alphabets" WHERE "alphabets"."image" = $1 LIMIT $2[0m  [["image", "d.svg"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:8
+  [1m[36mAlphabet Create (0.4ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "d.svg"], ["created_at", "2022-03-13 07:08:06.201357"], ["updated_at", "2022-03-13 07:08:06.201357"]]
+  ↳ db/seeds.rb:8
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:8
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mAlphabet Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "alphabets" WHERE "alphabets"."image" = $1 LIMIT $2[0m  [["image", "e.svg"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:9
+  [1m[36mAlphabet Create (0.5ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "e.svg"], ["created_at", "2022-03-13 07:08:06.205099"], ["updated_at", "2022-03-13 07:08:06.205099"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:10
+  [1m[36mAlphabet Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "alphabets" WHERE "alphabets"."image" = $1 LIMIT $2[0m  [["image", "f.svg"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:10
+  [1m[36mAlphabet Create (0.4ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "f.svg"], ["created_at", "2022-03-13 07:08:06.209075"], ["updated_at", "2022-03-13 07:08:06.209075"]]
+  ↳ db/seeds.rb:10
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:11
+  [1m[36mAlphabet Exists (0.7ms)[0m  [1m[34mSELECT  1 AS one FROM "alphabets" WHERE "alphabets"."image" = $1 LIMIT $2[0m  [["image", "g.svg"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:11
+  [1m[36mAlphabet Create (0.5ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "g.svg"], ["created_at", "2022-03-13 07:08:06.213060"], ["updated_at", "2022-03-13 07:08:06.213060"]]
+  ↳ db/seeds.rb:11
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:11
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:12
+  [1m[36mAlphabet Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "alphabets" WHERE "alphabets"."image" = $1 LIMIT $2[0m  [["image", "h.svg"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:12
+  [1m[36mAlphabet Create (0.3ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "h.svg"], ["created_at", "2022-03-13 07:08:06.216445"], ["updated_at", "2022-03-13 07:08:06.216445"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:13
+  [1m[36mAlphabet Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "alphabets" WHERE "alphabets"."image" = $1 LIMIT $2[0m  [["image", "i.svg"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:13
+  [1m[36mAlphabet Create (0.4ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "i.svg"], ["created_at", "2022-03-13 07:08:06.219795"], ["updated_at", "2022-03-13 07:08:06.219795"]]
+  ↳ db/seeds.rb:13
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:13
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:14
+  [1m[36mAlphabet Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "alphabets" WHERE "alphabets"."image" = $1 LIMIT $2[0m  [["image", "j.svg"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:14
+  [1m[36mAlphabet Create (0.4ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "j.svg"], ["created_at", "2022-03-13 07:08:06.223189"], ["updated_at", "2022-03-13 07:08:06.223189"]]
+  ↳ db/seeds.rb:14
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:14
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:15
+  [1m[36mAlphabet Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "alphabets" WHERE "alphabets"."image" = $1 LIMIT $2[0m  [["image", "k.svg"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:15
+  [1m[36mAlphabet Create (0.4ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "k.svg"], ["created_at", "2022-03-13 07:08:06.226750"], ["updated_at", "2022-03-13 07:08:06.226750"]]
+  ↳ db/seeds.rb:15
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:16
+  [1m[36mAlphabet Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "alphabets" WHERE "alphabets"."image" = $1 LIMIT $2[0m  [["image", "l.svg"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:16
+  [1m[36mAlphabet Create (0.3ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "l.svg"], ["created_at", "2022-03-13 07:08:06.230101"], ["updated_at", "2022-03-13 07:08:06.230101"]]
+  ↳ db/seeds.rb:16
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:16
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:17
+  [1m[36mAlphabet Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "alphabets" WHERE "alphabets"."image" = $1 LIMIT $2[0m  [["image", "m.svg"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:17
+  [1m[36mAlphabet Create (0.3ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "m.svg"], ["created_at", "2022-03-13 07:08:06.233239"], ["updated_at", "2022-03-13 07:08:06.233239"]]
+  ↳ db/seeds.rb:17
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:17
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:18
+  [1m[36mAlphabet Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "alphabets" WHERE "alphabets"."image" = $1 LIMIT $2[0m  [["image", "n.svg"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:18
+  [1m[36mAlphabet Create (0.7ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "n.svg"], ["created_at", "2022-03-13 07:08:06.237353"], ["updated_at", "2022-03-13 07:08:06.237353"]]
+  ↳ db/seeds.rb:18
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:18
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:19
+  [1m[36mAlphabet Exists (0.8ms)[0m  [1m[34mSELECT  1 AS one FROM "alphabets" WHERE "alphabets"."image" = $1 LIMIT $2[0m  [["image", "o.svg"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:19
+  [1m[36mAlphabet Create (0.5ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "o.svg"], ["created_at", "2022-03-13 07:08:06.242893"], ["updated_at", "2022-03-13 07:08:06.242893"]]
+  ↳ db/seeds.rb:19
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:19
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:20
+  [1m[36mAlphabet Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "alphabets" WHERE "alphabets"."image" = $1 LIMIT $2[0m  [["image", "p.svg"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:20
+  [1m[36mAlphabet Create (0.4ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "p.svg"], ["created_at", "2022-03-13 07:08:06.246749"], ["updated_at", "2022-03-13 07:08:06.246749"]]
+  ↳ db/seeds.rb:20
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:20
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:21
+  [1m[36mAlphabet Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "alphabets" WHERE "alphabets"."image" = $1 LIMIT $2[0m  [["image", "q.svg"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:21
+  [1m[36mAlphabet Create (0.4ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "q.svg"], ["created_at", "2022-03-13 07:08:06.250644"], ["updated_at", "2022-03-13 07:08:06.250644"]]
+  ↳ db/seeds.rb:21
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:21
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:22
+  [1m[36mAlphabet Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "alphabets" WHERE "alphabets"."image" = $1 LIMIT $2[0m  [["image", "r.svg"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:22
+  [1m[36mAlphabet Create (0.4ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "r.svg"], ["created_at", "2022-03-13 07:08:06.254476"], ["updated_at", "2022-03-13 07:08:06.254476"]]
+  ↳ db/seeds.rb:22
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:22
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:23
+  [1m[36mAlphabet Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "alphabets" WHERE "alphabets"."image" = $1 LIMIT $2[0m  [["image", "s.svg"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:23
+  [1m[36mAlphabet Create (0.4ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "s.svg"], ["created_at", "2022-03-13 07:08:06.258196"], ["updated_at", "2022-03-13 07:08:06.258196"]]
+  ↳ db/seeds.rb:23
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:23
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:24
+  [1m[36mAlphabet Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "alphabets" WHERE "alphabets"."image" = $1 LIMIT $2[0m  [["image", "t.svg"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:24
+  [1m[36mAlphabet Create (0.4ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "t.svg"], ["created_at", "2022-03-13 07:08:06.261328"], ["updated_at", "2022-03-13 07:08:06.261328"]]
+  ↳ db/seeds.rb:24
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:24
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:25
+  [1m[36mAlphabet Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "alphabets" WHERE "alphabets"."image" = $1 LIMIT $2[0m  [["image", "u.svg"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:25
+  [1m[36mAlphabet Create (0.4ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "u.svg"], ["created_at", "2022-03-13 07:08:06.264663"], ["updated_at", "2022-03-13 07:08:06.264663"]]
+  ↳ db/seeds.rb:25
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:25
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:26
+  [1m[36mAlphabet Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "alphabets" WHERE "alphabets"."image" = $1 LIMIT $2[0m  [["image", "v.svg"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:26
+  [1m[36mAlphabet Create (0.4ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "v.svg"], ["created_at", "2022-03-13 07:08:06.267968"], ["updated_at", "2022-03-13 07:08:06.267968"]]
+  ↳ db/seeds.rb:26
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:26
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:27
+  [1m[36mAlphabet Exists (0.5ms)[0m  [1m[34mSELECT  1 AS one FROM "alphabets" WHERE "alphabets"."image" = $1 LIMIT $2[0m  [["image", "w.svg"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:27
+  [1m[36mAlphabet Create (0.7ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "w.svg"], ["created_at", "2022-03-13 07:08:06.272212"], ["updated_at", "2022-03-13 07:08:06.272212"]]
+  ↳ db/seeds.rb:27
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:27
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:28
+  [1m[36mAlphabet Exists (0.6ms)[0m  [1m[34mSELECT  1 AS one FROM "alphabets" WHERE "alphabets"."image" = $1 LIMIT $2[0m  [["image", "x.svg"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:28
+  [1m[36mAlphabet Create (0.5ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "x.svg"], ["created_at", "2022-03-13 07:08:06.277652"], ["updated_at", "2022-03-13 07:08:06.277652"]]
+  ↳ db/seeds.rb:28
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:28
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:29
+  [1m[36mAlphabet Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "alphabets" WHERE "alphabets"."image" = $1 LIMIT $2[0m  [["image", "y.svg"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:29
+  [1m[36mAlphabet Create (0.4ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "y.svg"], ["created_at", "2022-03-13 07:08:06.281362"], ["updated_at", "2022-03-13 07:08:06.281362"]]
+  ↳ db/seeds.rb:29
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:29
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:30
+  [1m[36mAlphabet Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "alphabets" WHERE "alphabets"."image" = $1 LIMIT $2[0m  [["image", "z.svg"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:30
+  [1m[36mAlphabet Create (0.4ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "z.svg"], ["created_at", "2022-03-13 07:08:06.284756"], ["updated_at", "2022-03-13 07:08:06.284756"]]
+  ↳ db/seeds.rb:30
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:30
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "alphabets"[0m
+  ↳ db/seeds.rb:32
+  [1m[36mWord Load (7.3ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:40
+  [1m[35m (0.4ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:40
+  [1m[35m (2.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+  [1m[35m (3.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+  [1m[36mAlphabet Load (14.5ms)[0m  [1m[34mSELECT "alphabets".* FROM "alphabets"[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.9ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 79]]
+  ↳ db/seeds.rb:3
+  [1m[35m (15.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.5ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 80]]
+  ↳ db/seeds.rb:3
+  [1m[35m (6.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (8.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.5ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 81]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.4ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 82]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.4ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 83]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (8.0ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 84]]
+  ↳ db/seeds.rb:3
+  [1m[35m (2.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.4ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 85]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.5ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 86]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.4ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 87]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.7ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 88]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.6ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 89]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.3ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 90]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.3ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 91]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.4ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 92]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.3ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 93]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.3ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 94]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.3ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 95]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.3ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 96]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.4ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 97]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.4ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 98]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.5ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 99]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.3ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 100]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.4ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 101]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.4ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 102]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.4ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 103]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.5ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 104]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:5
+  [1m[36mAlphabet Exists (0.9ms)[0m  [1m[34mSELECT  1 AS one FROM "alphabets" WHERE "alphabets"."image" = $1 LIMIT $2[0m  [["image", "a.svg"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:5
+  [1m[36mAlphabet Create (1.2ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "a.svg"], ["created_at", "2022-03-13 07:10:00.860782"], ["updated_at", "2022-03-13 07:10:00.860782"]]
+  ↳ db/seeds.rb:5
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:5
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT COUNT(*) FROM "alphabets"[0m
+  ↳ db/seeds.rb:8
+  [1m[36mWord Load (7.4ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ db/seeds.rb:14
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:16
+  [1m[35m (0.3ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:16
+  [1m[35m (31.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+  [1m[36mAlphabet Load (21.8ms)[0m  [1m[34mSELECT "alphabets".* FROM "alphabets"[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (11.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (33.3ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 105]]
+  ↳ db/seeds.rb:3
+  [1m[35m (2.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:5
+  [1m[36mAlphabet Create (7.2ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "a.svg"], ["created_at", "2022-03-13 07:12:16.177316"], ["updated_at", "2022-03-13 07:12:16.177316"]]
+  ↳ db/seeds.rb:5
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:5
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:6
+  [1m[36mAlphabet Create (0.6ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "b.svg"], ["created_at", "2022-03-13 07:12:16.188330"], ["updated_at", "2022-03-13 07:12:16.188330"]]
+  ↳ db/seeds.rb:6
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:6
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:7
+  [1m[36mAlphabet Create (0.6ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "c.svg"], ["created_at", "2022-03-13 07:12:16.191639"], ["updated_at", "2022-03-13 07:12:16.191639"]]
+  ↳ db/seeds.rb:7
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:7
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:8
+  [1m[36mAlphabet Create (0.5ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "d.svg"], ["created_at", "2022-03-13 07:12:16.194507"], ["updated_at", "2022-03-13 07:12:16.194507"]]
+  ↳ db/seeds.rb:8
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:8
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mAlphabet Create (0.5ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "e.svg"], ["created_at", "2022-03-13 07:12:16.197301"], ["updated_at", "2022-03-13 07:12:16.197301"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:10
+  [1m[36mAlphabet Create (0.4ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "f.svg"], ["created_at", "2022-03-13 07:12:16.200241"], ["updated_at", "2022-03-13 07:12:16.200241"]]
+  ↳ db/seeds.rb:10
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:11
+  [1m[36mAlphabet Create (2.6ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "g.svg"], ["created_at", "2022-03-13 07:12:16.202549"], ["updated_at", "2022-03-13 07:12:16.202549"]]
+  ↳ db/seeds.rb:11
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:11
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:12
+  [1m[36mAlphabet Create (0.5ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "h.svg"], ["created_at", "2022-03-13 07:12:16.207777"], ["updated_at", "2022-03-13 07:12:16.207777"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:13
+  [1m[36mAlphabet Create (0.6ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "i.svg"], ["created_at", "2022-03-13 07:12:16.210362"], ["updated_at", "2022-03-13 07:12:16.210362"]]
+  ↳ db/seeds.rb:13
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:13
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:14
+  [1m[36mAlphabet Create (0.4ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "j.svg"], ["created_at", "2022-03-13 07:12:16.213021"], ["updated_at", "2022-03-13 07:12:16.213021"]]
+  ↳ db/seeds.rb:14
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:14
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:15
+  [1m[36mAlphabet Create (0.6ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "k.svg"], ["created_at", "2022-03-13 07:12:16.215536"], ["updated_at", "2022-03-13 07:12:16.215536"]]
+  ↳ db/seeds.rb:15
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:16
+  [1m[36mAlphabet Create (0.4ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "l.svg"], ["created_at", "2022-03-13 07:12:16.218244"], ["updated_at", "2022-03-13 07:12:16.218244"]]
+  ↳ db/seeds.rb:16
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:16
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:17
+  [1m[36mAlphabet Create (0.6ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "m.svg"], ["created_at", "2022-03-13 07:12:16.220818"], ["updated_at", "2022-03-13 07:12:16.220818"]]
+  ↳ db/seeds.rb:17
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:17
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:18
+  [1m[36mAlphabet Create (0.6ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "n.svg"], ["created_at", "2022-03-13 07:12:16.224104"], ["updated_at", "2022-03-13 07:12:16.224104"]]
+  ↳ db/seeds.rb:18
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:18
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:19
+  [1m[36mAlphabet Create (0.6ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "o.svg"], ["created_at", "2022-03-13 07:12:16.227462"], ["updated_at", "2022-03-13 07:12:16.227462"]]
+  ↳ db/seeds.rb:19
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:19
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:20
+  [1m[36mAlphabet Create (0.5ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "p.svg"], ["created_at", "2022-03-13 07:12:16.230276"], ["updated_at", "2022-03-13 07:12:16.230276"]]
+  ↳ db/seeds.rb:20
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:20
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:21
+  [1m[36mAlphabet Create (0.4ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "q.svg"], ["created_at", "2022-03-13 07:12:16.232811"], ["updated_at", "2022-03-13 07:12:16.232811"]]
+  ↳ db/seeds.rb:21
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:21
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:22
+  [1m[36mAlphabet Create (0.5ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "r.svg"], ["created_at", "2022-03-13 07:12:16.235450"], ["updated_at", "2022-03-13 07:12:16.235450"]]
+  ↳ db/seeds.rb:22
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:22
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:23
+  [1m[36mAlphabet Create (0.5ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "s.svg"], ["created_at", "2022-03-13 07:12:16.238427"], ["updated_at", "2022-03-13 07:12:16.238427"]]
+  ↳ db/seeds.rb:23
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:23
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:24
+  [1m[36mAlphabet Create (0.5ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "t.svg"], ["created_at", "2022-03-13 07:12:16.241263"], ["updated_at", "2022-03-13 07:12:16.241263"]]
+  ↳ db/seeds.rb:24
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:24
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:25
+  [1m[36mAlphabet Create (0.4ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "u.svg"], ["created_at", "2022-03-13 07:12:16.243871"], ["updated_at", "2022-03-13 07:12:16.243871"]]
+  ↳ db/seeds.rb:25
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:25
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:26
+  [1m[36mAlphabet Create (0.4ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "v.svg"], ["created_at", "2022-03-13 07:12:16.245877"], ["updated_at", "2022-03-13 07:12:16.245877"]]
+  ↳ db/seeds.rb:26
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:26
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:27
+  [1m[36mAlphabet Create (0.6ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "w.svg"], ["created_at", "2022-03-13 07:12:16.248001"], ["updated_at", "2022-03-13 07:12:16.248001"]]
+  ↳ db/seeds.rb:27
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:27
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:28
+  [1m[36mAlphabet Create (0.4ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "x.svg"], ["created_at", "2022-03-13 07:12:16.250823"], ["updated_at", "2022-03-13 07:12:16.250823"]]
+  ↳ db/seeds.rb:28
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:28
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:29
+  [1m[36mAlphabet Create (0.4ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "y.svg"], ["created_at", "2022-03-13 07:12:16.253280"], ["updated_at", "2022-03-13 07:12:16.253280"]]
+  ↳ db/seeds.rb:29
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:29
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:30
+  [1m[36mAlphabet Create (0.6ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "z.svg"], ["created_at", "2022-03-13 07:12:16.256102"], ["updated_at", "2022-03-13 07:12:16.256102"]]
+  ↳ db/seeds.rb:30
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:30
+  [1m[35m (4.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "alphabets"[0m
+  ↳ db/seeds.rb:32
+  [1m[36mWord Load (7.8ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:40
+  [1m[36mWord Create (13.9ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Apple"], ["image_items", ""], ["definition", "An apple is a type of fruit that is grown on an apple tree."], ["character", "A"], ["created_at", "2022-03-13 07:12:16.304734"], ["updated_at", "2022-03-13 07:12:16.304734"]]
+  ↳ db/seeds.rb:40
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:40
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:47
+  [1m[36mWord Create (1.0ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Ant"], ["image_items", ""], ["definition", "Ant, any of approximately 10,000 species of insects that are social in habit and live together in organized colonies."], ["character", "A"], ["created_at", "2022-03-13 07:12:16.321699"], ["updated_at", "2022-03-13 07:12:16.321699"]]
+  ↳ db/seeds.rb:47
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:47
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:54
+  [1m[36mWord Create (0.5ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Aeroplane"], ["image_items", ""], ["definition", "A machine with wings that can fly in the sky"], ["character", "A"], ["created_at", "2022-03-13 07:12:16.326308"], ["updated_at", "2022-03-13 07:12:16.326308"]]
+  ↳ db/seeds.rb:54
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:54
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:61
+  [1m[36mWord Create (0.4ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Angel"], ["image_items", ""], ["definition", "A spiritual being who acts as a servant or messenger of God."], ["character", "A"], ["created_at", "2022-03-13 07:12:16.329176"], ["updated_at", "2022-03-13 07:12:16.329176"]]
+  ↳ db/seeds.rb:61
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:61
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:68
+  [1m[36mWord Create (0.4ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Angry"], ["image_items", ""], ["definition", "Angry is an emotion."], ["character", "A"], ["created_at", "2022-03-13 07:12:16.332053"], ["updated_at", "2022-03-13 07:12:16.332053"]]
+  ↳ db/seeds.rb:68
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:68
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:75
+  [1m[36mWord Create (0.5ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Banana"], ["image_items", ""], ["definition", "a long, curved fruit that has a thick yellow skin. It grows in bunches on a tall tropical plant."], ["character", "B"], ["created_at", "2022-03-13 07:12:16.334487"], ["updated_at", "2022-03-13 07:12:16.334487"]]
+  ↳ db/seeds.rb:75
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:75
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:82
+  [1m[36mWord Create (0.5ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Bee"], ["image_items", ""], ["definition", "An insect with a hairy body, four wings, and sometimes a stinger. Some kinds of bees live in social groups, and some live alone."], ["character", "B"], ["created_at", "2022-03-13 07:12:16.337400"], ["updated_at", "2022-03-13 07:12:16.337400"]]
+  ↳ db/seeds.rb:82
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:82
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:89
+  [1m[36mWord Create (0.5ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Bus"], ["image_items", ""], ["definition", "A large motor vehicle carrying passengers by road, typically one serving the public on a fixed route and for a fare."], ["character", "B"], ["created_at", "2022-03-13 07:12:16.340411"], ["updated_at", "2022-03-13 07:12:16.340411"]]
+  ↳ db/seeds.rb:89
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:89
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:96
+  [1m[36mWord Create (0.4ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Bear"], ["image_items", ""], ["definition", "A large, heavy mammal that walks on the soles of its feet, having thick fur and a very short tail. "], ["character", "B"], ["created_at", "2022-03-13 07:12:16.343423"], ["updated_at", "2022-03-13 07:12:16.343423"]]
+  ↳ db/seeds.rb:96
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:96
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:103
+  [1m[36mWord Create (0.4ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "BALL"], ["image_items", ""], ["definition", "A ball is a round object that will bounce"], ["character", "B"], ["created_at", "2022-03-13 07:12:16.345774"], ["updated_at", "2022-03-13 07:12:16.345774"]]
+  ↳ db/seeds.rb:103
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:103
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:110
+  [1m[36mWord Create (0.7ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Cat"], ["image_items", ""], ["definition", "A small, furry mammal with whiskers, short ears, and a long tail."], ["character", "C"], ["created_at", "2022-03-13 07:12:16.348550"], ["updated_at", "2022-03-13 07:12:16.348550"]]
+  ↳ db/seeds.rb:110
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:110
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:117
+  [1m[36mWord Create (0.4ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Caterpillar"], ["image_items", ""], ["definition", "Caterpillars are round and long like worms, but have six legs. They may be brightly colored."], ["character", "C"], ["created_at", "2022-03-13 07:12:16.351747"], ["updated_at", "2022-03-13 07:12:16.351747"]]
+  ↳ db/seeds.rb:117
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:117
+  [1m[35m (0.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:124
+  [1m[36mWord Create (1.6ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Car"], ["image_items", ""], ["definition", "A four-wheeled road vehicle that is powered by an engine and is able to carry a small number of people."], ["character", "C"], ["created_at", "2022-03-13 07:12:16.355397"], ["updated_at", "2022-03-13 07:12:16.355397"]]
+  ↳ db/seeds.rb:124
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:124
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:131
+  [1m[36mWord Create (0.4ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Cake"], ["image_items", ""], ["definition", "An item of soft sweet food made from a mixture of flour, fat, eggs, sugar, and other ingredients, baked and sometimes iced or decorated."], ["character", "C"], ["created_at", "2022-03-13 07:12:16.360107"], ["updated_at", "2022-03-13 07:12:16.360107"]]
+  ↳ db/seeds.rb:131
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:131
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:138
+  [1m[36mWord Create (0.4ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Castle"], ["image_items", ""], ["definition", "A large, strong building where a noble lived with his family."], ["character", "C"], ["created_at", "2022-03-13 07:12:16.362527"], ["updated_at", "2022-03-13 07:12:16.362527"]]
+  ↳ db/seeds.rb:138
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:138
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:145
+  [1m[36mWord Create (0.8ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Dog"], ["image_items", ""], ["definition", "A furry animal with four legs, a pointed nose, and a tail."], ["character", "D"], ["created_at", "2022-03-13 07:12:16.365349"], ["updated_at", "2022-03-13 07:12:16.365349"]]
+  ↳ db/seeds.rb:145
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:145
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:152
+  [1m[36mWord Create (1.4ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Dinosaur"], ["image_items", ""], ["definition", "A fossil reptile of the Mesozoic era, in many species reaching an enormous size."], ["character", "D"], ["created_at", "2022-03-13 07:12:16.369692"], ["updated_at", "2022-03-13 07:12:16.369692"]]
+  ↳ db/seeds.rb:152
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:152
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:159
+  [1m[36mWord Create (0.5ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Door"], ["image_items", ""], ["definition", "An opening through which one enters or leaves a room or building."], ["character", "D"], ["created_at", "2022-03-13 07:12:16.374522"], ["updated_at", "2022-03-13 07:12:16.374522"]]
+  ↳ db/seeds.rb:159
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:159
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:166
+  [1m[36mWord Create (0.5ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Dumplings"], ["image_items", ""], ["definition", "A lump of boiled dough, often served in soup with stewed meat."], ["character", "D"], ["created_at", "2022-03-13 07:12:16.377869"], ["updated_at", "2022-03-13 07:12:16.377869"]]
+  ↳ db/seeds.rb:166
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:166
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:173
+  [1m[36mWord Create (0.4ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Duck"], ["image_items", ""], ["definition", "A bird that lives in or near water and has webbed feet for swimming and a large flat bill."], ["character", "D"], ["created_at", "2022-03-13 07:12:16.380522"], ["updated_at", "2022-03-13 07:12:16.380522"]]
+  ↳ db/seeds.rb:173
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:173
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:180
+  [1m[36mWord Create (0.4ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Egg"], ["image_items", ""], ["definition", "An oval or round object laid by a female bird, reptile, fish."], ["character", "E"], ["created_at", "2022-03-13 07:12:16.383107"], ["updated_at", "2022-03-13 07:12:16.383107"]]
+  ↳ db/seeds.rb:180
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:180
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:187
+  [1m[36mWord Create (0.4ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Elephant"], ["image_items", ""], ["definition", "An enormous mammal with a very long nose called a trunk."], ["character", "E"], ["created_at", "2022-03-13 07:12:16.385742"], ["updated_at", "2022-03-13 07:12:16.385742"]]
+  ↳ db/seeds.rb:187
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:187
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:194
+  [1m[36mWord Create (0.4ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Earth"], ["image_items", ""], ["definition", "The fifth largest planet in our solar system and the third in distance from the sun."], ["character", "E"], ["created_at", "2022-03-13 07:12:16.388171"], ["updated_at", "2022-03-13 07:12:16.388171"]]
+  ↳ db/seeds.rb:194
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:194
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:201
+  [1m[36mWord Create (0.5ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Envelope"], ["image_items", ""], ["definition", "A folded paper covering or container usually used to mail letters."], ["character", "E"], ["created_at", "2022-03-13 07:12:16.390691"], ["updated_at", "2022-03-13 07:12:16.390691"]]
+  ↳ db/seeds.rb:201
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:201
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:208
+  [1m[36mWord Create (0.4ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Elf"], ["image_items", ""], ["definition", "An imaginary small creature that looks like a human and has magical powers."], ["character", "E"], ["created_at", "2022-03-13 07:12:16.393257"], ["updated_at", "2022-03-13 07:12:16.393257"]]
+  ↳ db/seeds.rb:208
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:208
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:216
+  [1m[36mWord Create (0.4ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Fish"], ["image_items", ""], ["definition", "An animal that lives in water and has fins for swimming and gills for breathing."], ["character", "F"], ["created_at", "2022-03-13 07:12:16.395519"], ["updated_at", "2022-03-13 07:12:16.395519"]]
+  ↳ db/seeds.rb:216
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:216
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:223
+  [1m[36mWord Create (0.4ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Flower"], ["image_items", ""], ["definition", "The part of a plant that has petals and that makes fruit or seeds; blossom. Flowers often have a pleasant smell."], ["character", "F"], ["created_at", "2022-03-13 07:12:16.397876"], ["updated_at", "2022-03-13 07:12:16.397876"]]
+  ↳ db/seeds.rb:223
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:223
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:230
+  [1m[36mWord Create (0.4ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Fox"], ["image_items", ""], ["definition", "A wild mammal that has a pointed nose, pointed ears, and a bushy tail."], ["character", "F"], ["created_at", "2022-03-13 07:12:16.400421"], ["updated_at", "2022-03-13 07:12:16.400421"]]
+  ↳ db/seeds.rb:230
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:230
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:237
+  [1m[36mWord Create (0.4ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Frog"], ["image_items", ""], ["definition", "A small, jumping animal with smooth, moist skin, long back legs, webbed feet, and no tail."], ["character", "F"], ["created_at", "2022-03-13 07:12:16.402772"], ["updated_at", "2022-03-13 07:12:16.402772"]]
+  ↳ db/seeds.rb:237
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:237
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:244
+  [1m[36mWord Create (0.4ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Fire Engine"], ["image_items", ""], ["definition", "A large truck that carries firefighters and their tools to a fire. Fire engines usually have a ladder and a pump for spraying water or chemicals used to put out fires."], ["character", "F"], ["created_at", "2022-03-13 07:12:16.404928"], ["updated_at", "2022-03-13 07:12:16.404928"]]
+  ↳ db/seeds.rb:244
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:244
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "words"[0m
+  ↳ db/seeds.rb:251
+Started GET "/" for 127.0.0.1 at 2022-03-13 18:17:08 +1100
+  [1m[35m (24.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/Phoebe/.rvm/gems/ruby-2.7.0/gems/activerecord-5.2.7/lib/active_record/log_subscriber.rb:98
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/Phoebe/.rvm/gems/ruby-2.7.0/gems/railties-5.2.7/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/Phoebe/.rvm/gems/ruby-2.7.0/gems/railties-5.2.7/lib/rails/templates/rails/welcome/index.html.erb (142.5ms)
+Completed 200 OK in 260ms (Views: 208.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/alphabets" for 127.0.0.1 at 2022-03-13 18:17:21 +1100
+Processing by AlphabetsController#index as HTML
+  Rendering alphabets/index.html.erb within layouts/application
+  Rendered alphabets/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 3362ms (Views: 3317.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/alphabets" for 127.0.0.1 at 2022-03-13 18:17:54 +1100
+Processing by AlphabetsController#index as HTML
+  [1m[36mAlphabet Load (15.5ms)[0m  [1m[34mSELECT "alphabets".* FROM "alphabets"[0m
+  ↳ app/controllers/alphabets_controller.rb:4
+Completed 200 OK in 410ms (Views: 84.9ms | ActiveRecord: 119.9ms)
+
+
+Started GET "/alphabets" for 127.0.0.1 at 2022-03-13 18:21:41 +1100
+Processing by AlphabetsController#index as HTML
+  [1m[36mAlphabet Load (2.3ms)[0m  [1m[34mSELECT "alphabets".* FROM "alphabets"[0m
+  ↳ app/controllers/alphabets_controller.rb:4
+Completed 200 OK in 86ms (Views: 66.7ms | ActiveRecord: 2.3ms)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/undefined"):
+  
+actionpack (5.2.7) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.7) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.7) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.7) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.7) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.7) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.7) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:11:in `block in call'
+activesupport (5.2.7) lib/active_support/logger_silence.rb:21:in `silence'
+activesupport (5.2.7) lib/active_support/logger.rb:65:in `block (3 levels) in broadcast'
+activesupport (5.2.7) lib/active_support/logger_silence.rb:21:in `silence'
+activesupport (5.2.7) lib/active_support/logger.rb:63:in `block (2 levels) in broadcast'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:11:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.7) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.7) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.7) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/alphabets" for 127.0.0.1 at 2022-03-13 18:22:07 +1100
+Processing by AlphabetsController#index as HTML
+  [1m[36mAlphabet Load (22.3ms)[0m  [1m[34mSELECT "alphabets".* FROM "alphabets"[0m
+  ↳ app/controllers/alphabets_controller.rb:4
+Completed 200 OK in 57ms (Views: 29.5ms | ActiveRecord: 22.3ms)
+
+
+Started GET "/alphabets" for 127.0.0.1 at 2022-03-13 18:22:51 +1100
+Processing by AlphabetsController#index as HTML
+  [1m[36mAlphabet Load (2.6ms)[0m  [1m[34mSELECT "alphabets".* FROM "alphabets"[0m
+  ↳ app/controllers/alphabets_controller.rb:4
+Completed 200 OK in 61ms (Views: 50.9ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/alphabets" for 127.0.0.1 at 2022-03-13 18:23:06 +1100
+Processing by AlphabetsController#index as HTML
+  [1m[36mAlphabet Load (1.6ms)[0m  [1m[34mSELECT "alphabets".* FROM "alphabets"[0m
+  ↳ app/controllers/alphabets_controller.rb:4
+Completed 200 OK in 49ms (Views: 44.2ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/alphabets" for 127.0.0.1 at 2022-03-13 18:24:00 +1100
+Processing by AlphabetsController#index as HTML
+  [1m[36mAlphabet Load (1.0ms)[0m  [1m[34mSELECT "alphabets".* FROM "alphabets"[0m
+  ↳ app/controllers/alphabets_controller.rb:4
+Completed 200 OK in 73ms (Views: 69.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/alphabets" for 127.0.0.1 at 2022-03-13 18:24:11 +1100
+Processing by AlphabetsController#index as HTML
+  [1m[36mAlphabet Load (24.8ms)[0m  [1m[34mSELECT "alphabets".* FROM "alphabets"[0m
+  ↳ app/controllers/alphabets_controller.rb:4
+Completed 200 OK in 139ms (Views: 90.0ms | ActiveRecord: 24.8ms)
+
+
+Started GET "/alphabets" for 127.0.0.1 at 2022-03-13 18:24:29 +1100
+Processing by AlphabetsController#index as HTML
+  [1m[36mAlphabet Load (224.7ms)[0m  [1m[34mSELECT "alphabets".* FROM "alphabets"[0m
+  ↳ app/controllers/alphabets_controller.rb:4
+Completed 200 OK in 272ms (Views: 42.1ms | ActiveRecord: 224.7ms)
+
+
+Started GET "/alphabets" for 127.0.0.1 at 2022-03-13 18:25:01 +1100
+Processing by AlphabetsController#index as HTML
+  [1m[36mAlphabet Load (90.1ms)[0m  [1m[34mSELECT "alphabets".* FROM "alphabets"[0m
+  ↳ app/controllers/alphabets_controller.rb:4
+Completed 200 OK in 133ms (Views: 35.2ms | ActiveRecord: 90.1ms)
+
+
+Started GET "/alphabets" for 127.0.0.1 at 2022-03-13 18:25:16 +1100
+Processing by AlphabetsController#index as HTML
+  [1m[36mAlphabet Load (32.2ms)[0m  [1m[34mSELECT "alphabets".* FROM "alphabets"[0m
+  ↳ app/controllers/alphabets_controller.rb:4
+Completed 200 OK in 93ms (Views: 59.6ms | ActiveRecord: 32.2ms)
+
+

@@ -10,17 +10,23 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_03_12_002157) do
+ActiveRecord::Schema.define(version: 2022_03_13_065552) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
+  create_table "alphabets", force: :cascade do |t|
+    t.string "image"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
   create_table "words", force: :cascade do |t|
     t.string "item"
-    t.string "image_letters"
     t.string "image_items"
     t.text "definition"
     t.text "character"
+    t.integer "alphabet_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
