@@ -17,7 +17,8 @@ ActiveRecord::Schema.define(version: 2022_03_12_002157) do
 
   create_table "words", force: :cascade do |t|
     t.string "item"
-    t.string "image"
+    t.string "image_letters"
+    t.string "image_items"
     t.text "definition"
     t.text "character"
     t.datetime "created_at", null: false
