@@ -242,7 +242,7 @@ w29 = Word.create!(
 
 w30 = Word.create!(
   item: 'Fire Engine',
-  image_items: '',
+  image_items:'vecteezy_fire-truck-rescue-in-flat-style-vector-illustration_6169563.jpg',
   definition: 'A large truck that carries firefighters and their tools to a fire. Fire engines usually have a ladder and a pump for spraying water or chemicals used to put out fires.',
   character: 'F'
 );

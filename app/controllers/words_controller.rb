@@ -5,6 +5,7 @@ class WordsController < ApplicationController
   end
 
   def show
+    headers['Access-Control-Allow-Origin'] = '*'
     @word = Word.find(params[:id])
     render json: @word
   end
