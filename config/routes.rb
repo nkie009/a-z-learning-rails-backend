@@ -2,6 +2,6 @@ Rails.application.routes.draw do
 
   get '/alphabets' => 'alphabets#index'
   get '/words' => 'words#index'
-  get '/words/:id' => 'words#show'
+  get '/words/:character' => 'words#show'
   
 end

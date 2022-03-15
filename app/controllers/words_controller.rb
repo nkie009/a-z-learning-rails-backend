@@ -6,7 +6,8 @@ class WordsController < ApplicationController
 
   def show
     headers['Access-Control-Allow-Origin'] = '*'
-    @word = Word.find(params[:id])
-    render json: @word
+    @words = Word.where(character: params[:character].upcase)
+    p @words
+    render json: @words.sample
   end
 end

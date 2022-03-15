@@ -668,4 +668,5 @@ w90 = Word.create!(
   character: 'Z'
 );
 
+
 puts "created #{Word.count} words."
