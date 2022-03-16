@@ -24,6 +24,7 @@ ActiveRecord::Schema.define(version: 2022_03_13_065552) do
   create_table "words", force: :cascade do |t|
     t.string "item"
     t.string "image_items"
+    t.string "image_letter"
     t.text "definition"
     t.text "character"
     t.integer "alphabet_id"

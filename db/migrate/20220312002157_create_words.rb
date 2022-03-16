@@ -3,6 +3,7 @@ class CreateWords < ActiveRecord::Migration[5.2]
     create_table :words do |t|
       t.string :item
       t.string :image_items
+      t.string :image_letter
       t.text :definition
       t.text :character
       t.integer :alphabet_id
