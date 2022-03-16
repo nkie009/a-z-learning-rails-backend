@@ -1,0 +1,1402 @@
+  [1m[35m (3.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:4
+  [1m[36mAlphabet Load (36.7ms)[0m  [1m[34mSELECT "alphabets".* FROM "alphabets"[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (6.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (13.2ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 288]]
+  ↳ db/seeds.rb:3
+  [1m[35m (4.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.8ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 289]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.6ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 290]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.6ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 291]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.7ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 292]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (3.7ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 293]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.6ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 294]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (2.4ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 295]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.4ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 296]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.8ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 297]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.6ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 298]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.6ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 299]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.5ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 300]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.6ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 301]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.6ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 302]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.4ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 303]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.5ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 304]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.5ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 305]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.7ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 306]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.6ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 307]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.6ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 308]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.6ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 309]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.5ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 310]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.4ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 311]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (0.5ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 312]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:3
+  [1m[36mAlphabet Destroy (1.0ms)[0m  [1m[31mDELETE FROM "alphabets" WHERE "alphabets"."id" = $1[0m  [["id", 313]]
+  ↳ db/seeds.rb:3
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:3
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:5
+  [1m[36mAlphabet Create (37.2ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "a.svg"], ["created_at", "2022-03-16 00:19:19.786574"], ["updated_at", "2022-03-16 00:19:19.786574"]]
+  ↳ db/seeds.rb:5
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:5
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:6
+  [1m[36mAlphabet Create (0.7ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "b.svg"], ["created_at", "2022-03-16 00:19:19.829364"], ["updated_at", "2022-03-16 00:19:19.829364"]]
+  ↳ db/seeds.rb:6
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:6
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:7
+  [1m[36mAlphabet Create (0.7ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "c.svg"], ["created_at", "2022-03-16 00:19:19.832738"], ["updated_at", "2022-03-16 00:19:19.832738"]]
+  ↳ db/seeds.rb:7
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:7
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:8
+  [1m[36mAlphabet Create (0.6ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "d.svg"], ["created_at", "2022-03-16 00:19:19.836215"], ["updated_at", "2022-03-16 00:19:19.836215"]]
+  ↳ db/seeds.rb:8
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:8
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mAlphabet Create (0.6ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "e.svg"], ["created_at", "2022-03-16 00:19:19.839554"], ["updated_at", "2022-03-16 00:19:19.839554"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:10
+  [1m[36mAlphabet Create (0.6ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "f.svg"], ["created_at", "2022-03-16 00:19:19.842686"], ["updated_at", "2022-03-16 00:19:19.842686"]]
+  ↳ db/seeds.rb:10
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:11
+  [1m[36mAlphabet Create (0.4ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "g.svg"], ["created_at", "2022-03-16 00:19:19.845827"], ["updated_at", "2022-03-16 00:19:19.845827"]]
+  ↳ db/seeds.rb:11
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:11
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:12
+  [1m[36mAlphabet Create (0.6ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "h.svg"], ["created_at", "2022-03-16 00:19:19.848798"], ["updated_at", "2022-03-16 00:19:19.848798"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:13
+  [1m[36mAlphabet Create (0.7ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "i.svg"], ["created_at", "2022-03-16 00:19:19.852762"], ["updated_at", "2022-03-16 00:19:19.852762"]]
+  ↳ db/seeds.rb:13
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:13
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:14
+  [1m[36mAlphabet Create (0.6ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "j.svg"], ["created_at", "2022-03-16 00:19:19.855788"], ["updated_at", "2022-03-16 00:19:19.855788"]]
+  ↳ db/seeds.rb:14
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:14
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:15
+  [1m[36mAlphabet Create (2.9ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "k.svg"], ["created_at", "2022-03-16 00:19:19.858432"], ["updated_at", "2022-03-16 00:19:19.858432"]]
+  ↳ db/seeds.rb:15
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:16
+  [1m[36mAlphabet Create (1.0ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "l.svg"], ["created_at", "2022-03-16 00:19:19.865655"], ["updated_at", "2022-03-16 00:19:19.865655"]]
+  ↳ db/seeds.rb:16
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:16
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:17
+  [1m[36mAlphabet Create (0.7ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "m.svg"], ["created_at", "2022-03-16 00:19:19.869981"], ["updated_at", "2022-03-16 00:19:19.869981"]]
+  ↳ db/seeds.rb:17
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:17
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:18
+  [1m[36mAlphabet Create (0.7ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "n.svg"], ["created_at", "2022-03-16 00:19:19.874053"], ["updated_at", "2022-03-16 00:19:19.874053"]]
+  ↳ db/seeds.rb:18
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:18
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:19
+  [1m[36mAlphabet Create (0.6ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "o.svg"], ["created_at", "2022-03-16 00:19:19.878729"], ["updated_at", "2022-03-16 00:19:19.878729"]]
+  ↳ db/seeds.rb:19
+  [1m[35m (2.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:19
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:20
+  [1m[36mAlphabet Create (0.5ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "p.svg"], ["created_at", "2022-03-16 00:19:19.884085"], ["updated_at", "2022-03-16 00:19:19.884085"]]
+  ↳ db/seeds.rb:20
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:20
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:21
+  [1m[36mAlphabet Create (0.8ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "q.svg"], ["created_at", "2022-03-16 00:19:19.887860"], ["updated_at", "2022-03-16 00:19:19.887860"]]
+  ↳ db/seeds.rb:21
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:21
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:22
+  [1m[36mAlphabet Create (0.6ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "r.svg"], ["created_at", "2022-03-16 00:19:19.890888"], ["updated_at", "2022-03-16 00:19:19.890888"]]
+  ↳ db/seeds.rb:22
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:22
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:23
+  [1m[36mAlphabet Create (0.6ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "s.svg"], ["created_at", "2022-03-16 00:19:19.894236"], ["updated_at", "2022-03-16 00:19:19.894236"]]
+  ↳ db/seeds.rb:23
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:23
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:24
+  [1m[36mAlphabet Create (0.6ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "t.svg"], ["created_at", "2022-03-16 00:19:19.896928"], ["updated_at", "2022-03-16 00:19:19.896928"]]
+  ↳ db/seeds.rb:24
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:24
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:25
+  [1m[36mAlphabet Create (0.5ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "u.svg"], ["created_at", "2022-03-16 00:19:19.899497"], ["updated_at", "2022-03-16 00:19:19.899497"]]
+  ↳ db/seeds.rb:25
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:25
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:26
+  [1m[36mAlphabet Create (0.7ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "v.svg"], ["created_at", "2022-03-16 00:19:19.902668"], ["updated_at", "2022-03-16 00:19:19.902668"]]
+  ↳ db/seeds.rb:26
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:26
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:27
+  [1m[36mAlphabet Create (0.6ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "w.svg"], ["created_at", "2022-03-16 00:19:19.906579"], ["updated_at", "2022-03-16 00:19:19.906579"]]
+  ↳ db/seeds.rb:27
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:27
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:28
+  [1m[36mAlphabet Create (0.8ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "x.svg"], ["created_at", "2022-03-16 00:19:19.909712"], ["updated_at", "2022-03-16 00:19:19.909712"]]
+  ↳ db/seeds.rb:28
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:28
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:29
+  [1m[36mAlphabet Create (0.6ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "y.svg"], ["created_at", "2022-03-16 00:19:19.914029"], ["updated_at", "2022-03-16 00:19:19.914029"]]
+  ↳ db/seeds.rb:29
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:29
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:30
+  [1m[36mAlphabet Create (0.7ms)[0m  [1m[32mINSERT INTO "alphabets" ("image", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["image", "z.svg"], ["created_at", "2022-03-16 00:19:19.918098"], ["updated_at", "2022-03-16 00:19:19.918098"]]
+  ↳ db/seeds.rb:30
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:30
+  [1m[35m (8.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "alphabets"[0m
+  ↳ db/seeds.rb:32
+  [1m[36mWord Load (22.3ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWord Destroy (2.6ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = $1[0m  [["id", 571]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWord Destroy (2.4ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = $1[0m  [["id", 572]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWord Destroy (0.7ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = $1[0m  [["id", 573]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWord Destroy (0.6ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = $1[0m  [["id", 574]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWord Destroy (0.4ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = $1[0m  [["id", 575]]
+  ↳ db/seeds.rb:38
+  [1m[35m (4.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (2.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWord Destroy (0.6ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = $1[0m  [["id", 576]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWord Destroy (1.2ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = $1[0m  [["id", 577]]
+  ↳ db/seeds.rb:38
+  [1m[35m (1.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWord Destroy (0.6ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = $1[0m  [["id", 578]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWord Destroy (0.5ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = $1[0m  [["id", 579]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWord Destroy (0.4ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = $1[0m  [["id", 580]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWord Destroy (0.4ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = $1[0m  [["id", 581]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWord Destroy (0.6ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = $1[0m  [["id", 582]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWord Destroy (0.5ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = $1[0m  [["id", 583]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWord Destroy (0.5ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = $1[0m  [["id", 584]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWord Destroy (0.6ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = $1[0m  [["id", 585]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWord Destroy (0.5ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = $1[0m  [["id", 586]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWord Destroy (0.4ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = $1[0m  [["id", 587]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWord Destroy (0.5ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = $1[0m  [["id", 588]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWord Destroy (0.5ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = $1[0m  [["id", 589]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWord Destroy (0.5ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = $1[0m  [["id", 590]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWord Destroy (0.5ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = $1[0m  [["id", 591]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWord Destroy (0.6ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = $1[0m  [["id", 592]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWord Destroy (0.4ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = $1[0m  [["id", 593]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWord Destroy (1.0ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = $1[0m  [["id", 594]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWord Destroy (0.6ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = $1[0m  [["id", 595]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWord Destroy (0.9ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = $1[0m  [["id", 596]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWord Destroy (0.6ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = $1[0m  [["id", 597]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWord Destroy (0.6ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = $1[0m  [["id", 598]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWord Destroy (0.6ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = $1[0m  [["id", 599]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWord Destroy (0.4ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = $1[0m  [["id", 600]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWord Destroy (0.8ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = $1[0m  [["id", 601]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWord Destroy (1.1ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = $1[0m  [["id", 602]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWord Destroy (0.5ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = $1[0m  [["id", 603]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWord Destroy (0.7ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = $1[0m  [["id", 604]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWord Destroy (0.6ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = $1[0m  [["id", 605]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWord Destroy (0.5ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = $1[0m  [["id", 606]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWord Destroy (0.5ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = $1[0m  [["id", 607]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWord Destroy (0.6ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = $1[0m  [["id", 608]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWord Destroy (0.5ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = $1[0m  [["id", 609]]
+  ↳ db/seeds.rb:38
+  [1m[35m (1.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWord Destroy (0.5ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = $1[0m  [["id", 610]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWord Destroy (1.0ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = $1[0m  [["id", 611]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWord Destroy (0.7ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = $1[0m  [["id", 612]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWord Destroy (1.8ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = $1[0m  [["id", 613]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWord Destroy (0.9ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = $1[0m  [["id", 614]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWord Destroy (0.7ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = $1[0m  [["id", 615]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWord Destroy (0.7ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = $1[0m  [["id", 616]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWord Destroy (0.4ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = $1[0m  [["id", 617]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWord Destroy (0.6ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = $1[0m  [["id", 618]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWord Destroy (0.5ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = $1[0m  [["id", 619]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWord Destroy (0.4ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = $1[0m  [["id", 620]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWord Destroy (0.6ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = $1[0m  [["id", 621]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWord Destroy (0.4ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = $1[0m  [["id", 622]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWord Destroy (0.5ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = $1[0m  [["id", 623]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWord Destroy (0.6ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = $1[0m  [["id", 624]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWord Destroy (0.6ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = $1[0m  [["id", 625]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWord Destroy (0.5ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = $1[0m  [["id", 626]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWord Destroy (0.8ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = $1[0m  [["id", 627]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWord Destroy (0.4ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = $1[0m  [["id", 628]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWord Destroy (0.4ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = $1[0m  [["id", 629]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWord Destroy (0.8ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = $1[0m  [["id", 630]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWord Destroy (0.9ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = $1[0m  [["id", 631]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWord Destroy (0.7ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = $1[0m  [["id", 632]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWord Destroy (0.8ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = $1[0m  [["id", 633]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWord Destroy (0.9ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = $1[0m  [["id", 634]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWord Destroy (0.8ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = $1[0m  [["id", 635]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWord Destroy (0.7ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = $1[0m  [["id", 636]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWord Destroy (0.4ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = $1[0m  [["id", 637]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWord Destroy (0.5ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = $1[0m  [["id", 638]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWord Destroy (0.5ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = $1[0m  [["id", 639]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWord Destroy (0.5ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = $1[0m  [["id", 640]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWord Destroy (0.6ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = $1[0m  [["id", 641]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWord Destroy (0.5ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = $1[0m  [["id", 642]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWord Destroy (0.4ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = $1[0m  [["id", 643]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWord Destroy (0.5ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = $1[0m  [["id", 644]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWord Destroy (0.5ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = $1[0m  [["id", 645]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWord Destroy (0.6ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = $1[0m  [["id", 646]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWord Destroy (0.6ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = $1[0m  [["id", 647]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWord Destroy (0.4ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = $1[0m  [["id", 648]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWord Destroy (0.8ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = $1[0m  [["id", 649]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWord Destroy (0.8ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = $1[0m  [["id", 650]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWord Destroy (0.8ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = $1[0m  [["id", 651]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWord Destroy (0.7ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = $1[0m  [["id", 652]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWord Destroy (0.6ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = $1[0m  [["id", 653]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWord Destroy (0.6ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = $1[0m  [["id", 654]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWord Destroy (0.6ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = $1[0m  [["id", 655]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWord Destroy (0.6ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = $1[0m  [["id", 656]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWord Destroy (0.4ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = $1[0m  [["id", 657]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWord Destroy (0.6ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = $1[0m  [["id", 658]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWord Destroy (0.7ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = $1[0m  [["id", 659]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:38
+  [1m[36mWord Destroy (0.6ms)[0m  [1m[31mDELETE FROM "words" WHERE "words"."id" = $1[0m  [["id", 660]]
+  ↳ db/seeds.rb:38
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:38
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:40
+  [1m[36mWord Create (3.7ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Apple"], ["image_items", "apple.svg"], ["definition", "An apple is a type of fruit that is grown on an apple tree."], ["character", "A"], ["created_at", "2022-03-16 00:19:20.246100"], ["updated_at", "2022-03-16 00:19:20.246100"]]
+  ↳ db/seeds.rb:40
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:40
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:47
+  [1m[36mWord Create (0.7ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Ant"], ["image_items", "ant.svg"], ["definition", "Ant, any of approximately 10,000 species of insects that are social in habit and live together in organized colonies."], ["character", "A"], ["created_at", "2022-03-16 00:19:20.253297"], ["updated_at", "2022-03-16 00:19:20.253297"]]
+  ↳ db/seeds.rb:47
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:47
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:54
+  [1m[36mWord Create (0.7ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Aeroplane"], ["image_items", "airplane.svg"], ["definition", "A machine with wings that can fly in the sky"], ["character", "A"], ["created_at", "2022-03-16 00:19:20.256645"], ["updated_at", "2022-03-16 00:19:20.256645"]]
+  ↳ db/seeds.rb:54
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:54
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:61
+  [1m[36mWord Create (1.2ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Angel"], ["image_items", "angel.svg"], ["definition", "A spiritual being who acts as a servant or messenger of God."], ["character", "A"], ["created_at", "2022-03-16 00:19:20.259604"], ["updated_at", "2022-03-16 00:19:20.259604"]]
+  ↳ db/seeds.rb:61
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:61
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:68
+  [1m[36mWord Create (1.0ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Angry"], ["image_items", "angry.svg"], ["definition", "Angry is an emotion."], ["character", "A"], ["created_at", "2022-03-16 00:19:20.264858"], ["updated_at", "2022-03-16 00:19:20.264858"]]
+  ↳ db/seeds.rb:68
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:68
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:75
+  [1m[36mWord Create (0.5ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Banana"], ["image_items", "banana.svg"], ["definition", "a long, curved fruit that has a thick yellow skin. It grows in bunches on a tall tropical plant."], ["character", "B"], ["created_at", "2022-03-16 00:19:20.271036"], ["updated_at", "2022-03-16 00:19:20.271036"]]
+  ↳ db/seeds.rb:75
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:75
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:82
+  [1m[36mWord Create (0.7ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Bee"], ["image_items", "bee.svg"], ["definition", "An insect with a hairy body, four wings, and sometimes a stinger. Some kinds of bees live in social groups, and some live alone."], ["character", "B"], ["created_at", "2022-03-16 00:19:20.274474"], ["updated_at", "2022-03-16 00:19:20.274474"]]
+  ↳ db/seeds.rb:82
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:82
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:89
+  [1m[36mWord Create (0.6ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Bus"], ["image_items", "bus.svg"], ["definition", "A large motor vehicle carrying passengers by road, typically one serving the public on a fixed route and for a fare."], ["character", "B"], ["created_at", "2022-03-16 00:19:20.277472"], ["updated_at", "2022-03-16 00:19:20.277472"]]
+  ↳ db/seeds.rb:89
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:89
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:96
+  [1m[36mWord Create (0.6ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Bear"], ["image_items", "bear.svg"], ["definition", "A large, heavy mammal that walks on the soles of its feet, having thick fur and a very short tail. "], ["character", "B"], ["created_at", "2022-03-16 00:19:20.280821"], ["updated_at", "2022-03-16 00:19:20.280821"]]
+  ↳ db/seeds.rb:96
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:96
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:103
+  [1m[36mWord Create (0.7ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "BALL"], ["image_items", "ball.svg"], ["definition", "A ball is a round object that will bounce"], ["character", "B"], ["created_at", "2022-03-16 00:19:20.284143"], ["updated_at", "2022-03-16 00:19:20.284143"]]
+  ↳ db/seeds.rb:103
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:103
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:110
+  [1m[36mWord Create (0.7ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Cat"], ["image_items", "cat.svg"], ["definition", "A small, furry mammal with whiskers, short ears, and a long tail."], ["character", "C"], ["created_at", "2022-03-16 00:19:20.288078"], ["updated_at", "2022-03-16 00:19:20.288078"]]
+  ↳ db/seeds.rb:110
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:110
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:117
+  [1m[36mWord Create (0.6ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Caterpillar"], ["image_items", "caterpillar.svg"], ["definition", "Caterpillars are round and long like worms, but have six legs. They may be brightly colored."], ["character", "C"], ["created_at", "2022-03-16 00:19:20.290842"], ["updated_at", "2022-03-16 00:19:20.290842"]]
+  ↳ db/seeds.rb:117
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:117
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:124
+  [1m[36mWord Create (0.7ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Car"], ["image_items", "car.svg"], ["definition", "A four-wheeled road vehicle that is powered by an engine and is able to carry a small number of people."], ["character", "C"], ["created_at", "2022-03-16 00:19:20.293602"], ["updated_at", "2022-03-16 00:19:20.293602"]]
+  ↳ db/seeds.rb:124
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:124
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:131
+  [1m[36mWord Create (0.8ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Cake"], ["image_items", "cake.svg"], ["definition", "An item of soft sweet food made from a mixture of flour, fat, eggs, sugar, and other ingredients, baked and sometimes iced or decorated."], ["character", "C"], ["created_at", "2022-03-16 00:19:20.296690"], ["updated_at", "2022-03-16 00:19:20.296690"]]
+  ↳ db/seeds.rb:131
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:131
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:138
+  [1m[36mWord Create (0.5ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Castle"], ["image_items", "castle.svg"], ["definition", "A large, strong building where a noble lived with his family."], ["character", "C"], ["created_at", "2022-03-16 00:19:20.299986"], ["updated_at", "2022-03-16 00:19:20.299986"]]
+  ↳ db/seeds.rb:138
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:138
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:145
+  [1m[36mWord Create (0.7ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Dog"], ["image_items", "dog.svg"], ["definition", "A furry animal with four legs, a pointed nose, and a tail."], ["character", "D"], ["created_at", "2022-03-16 00:19:20.303374"], ["updated_at", "2022-03-16 00:19:20.303374"]]
+  ↳ db/seeds.rb:145
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:145
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:152
+  [1m[36mWord Create (0.8ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Dinosaur"], ["image_items", "dinosaur.svg"], ["definition", "A fossil reptile of the Mesozoic era, in many species reaching an enormous size."], ["character", "D"], ["created_at", "2022-03-16 00:19:20.306756"], ["updated_at", "2022-03-16 00:19:20.306756"]]
+  ↳ db/seeds.rb:152
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:152
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:159
+  [1m[36mWord Create (0.7ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Door"], ["image_items", "door.svg"], ["definition", "An opening through which one enters or leaves a room or building."], ["character", "D"], ["created_at", "2022-03-16 00:19:20.309462"], ["updated_at", "2022-03-16 00:19:20.309462"]]
+  ↳ db/seeds.rb:159
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:159
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:166
+  [1m[36mWord Create (0.7ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Dumplings"], ["image_items", "dumplings.svg"], ["definition", "A lump of boiled dough, often served in soup with stewed meat."], ["character", "D"], ["created_at", "2022-03-16 00:19:20.313049"], ["updated_at", "2022-03-16 00:19:20.313049"]]
+  ↳ db/seeds.rb:166
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:166
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:173
+  [1m[36mWord Create (0.7ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Duck"], ["image_items", "duck.svg"], ["definition", "A bird that lives in or near water and has webbed feet for swimming and a large flat bill."], ["character", "D"], ["created_at", "2022-03-16 00:19:20.317733"], ["updated_at", "2022-03-16 00:19:20.317733"]]
+  ↳ db/seeds.rb:173
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:173
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:180
+  [1m[36mWord Create (0.7ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Eggs"], ["image_items", "egg.svg"], ["definition", "An oval or round object laid by a female bird, reptile, fish."], ["character", "E"], ["created_at", "2022-03-16 00:19:20.322883"], ["updated_at", "2022-03-16 00:19:20.322883"]]
+  ↳ db/seeds.rb:180
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:180
+  [1m[35m (0.8ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:187
+  [1m[36mWord Create (1.2ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Elephant"], ["image_items", "elephant.svg"], ["definition", "An enormous mammal with a very long nose called a trunk."], ["character", "E"], ["created_at", "2022-03-16 00:19:20.328195"], ["updated_at", "2022-03-16 00:19:20.328195"]]
+  ↳ db/seeds.rb:187
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:187
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:194
+  [1m[36mWord Create (1.8ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Earth"], ["image_items", "earth.svg"], ["definition", "The fifth largest planet in our solar system and the third in distance from the sun."], ["character", "E"], ["created_at", "2022-03-16 00:19:20.332265"], ["updated_at", "2022-03-16 00:19:20.332265"]]
+  ↳ db/seeds.rb:194
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:194
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:201
+  [1m[36mWord Create (0.8ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Envelope"], ["image_items", "envelope.svg"], ["definition", "A folded paper covering or container usually used to mail letters."], ["character", "E"], ["created_at", "2022-03-16 00:19:20.338307"], ["updated_at", "2022-03-16 00:19:20.338307"]]
+  ↳ db/seeds.rb:201
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:201
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:208
+  [1m[36mWord Create (0.9ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Elf"], ["image_items", "elf.svg"], ["definition", "An imaginary small creature that looks like a human and has magical powers."], ["character", "E"], ["created_at", "2022-03-16 00:19:20.342345"], ["updated_at", "2022-03-16 00:19:20.342345"]]
+  ↳ db/seeds.rb:208
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:208
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:215
+  [1m[36mWord Create (0.8ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Fish"], ["image_items", "fish.svg"], ["definition", "An animal that lives in water and has fins for swimming and gills for breathing."], ["character", "F"], ["created_at", "2022-03-16 00:19:20.346181"], ["updated_at", "2022-03-16 00:19:20.346181"]]
+  ↳ db/seeds.rb:215
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:215
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:222
+  [1m[36mWord Create (0.6ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Flower"], ["image_items", "flower.svg"], ["definition", "The part of a plant that has petals and that makes fruit or seeds; blossom. Flowers often have a pleasant smell."], ["character", "F"], ["created_at", "2022-03-16 00:19:20.349474"], ["updated_at", "2022-03-16 00:19:20.349474"]]
+  ↳ db/seeds.rb:222
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:222
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:229
+  [1m[36mWord Create (0.7ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Fox"], ["image_items", "fox.svg"], ["definition", "A wild mammal that has a pointed nose, pointed ears, and a bushy tail."], ["character", "F"], ["created_at", "2022-03-16 00:19:20.352862"], ["updated_at", "2022-03-16 00:19:20.352862"]]
+  ↳ db/seeds.rb:229
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:229
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:236
+  [1m[36mWord Create (0.7ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Frog"], ["image_items", "frog.svg"], ["definition", "A small, jumping animal with smooth, moist skin, long back legs, webbed feet, and no tail."], ["character", "F"], ["created_at", "2022-03-16 00:19:20.356168"], ["updated_at", "2022-03-16 00:19:20.356168"]]
+  ↳ db/seeds.rb:236
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:236
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:243
+  [1m[36mWord Create (0.9ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Fire Engine"], ["image_items", "fire-engine.svg"], ["definition", "A large truck that carries firefighters and their tools to a fire. Fire engines usually have a ladder and a pump for spraying water or chemicals used to put out fires."], ["character", "F"], ["created_at", "2022-03-16 00:19:20.359401"], ["updated_at", "2022-03-16 00:19:20.359401"]]
+  ↳ db/seeds.rb:243
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:243
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:250
+  [1m[36mWord Create (0.8ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Grapes"], ["image_items", "grapes.svg"], ["definition", "A small, juicy fruit, with a smooth skin that is either green, red, or purple. Grapes grow in bunches on woody vines."], ["character", "G"], ["created_at", "2022-03-16 00:19:20.363770"], ["updated_at", "2022-03-16 00:19:20.363770"]]
+  ↳ db/seeds.rb:250
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:250
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:257
+  [1m[36mWord Create (0.9ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Giraffe"], ["image_items", "giraffe.svg"], ["definition", "A mammal with a very long neck, long legs, and hooves. Giraffes have short horns covered with fur."], ["character", "G"], ["created_at", "2022-03-16 00:19:20.370616"], ["updated_at", "2022-03-16 00:19:20.370616"]]
+  ↳ db/seeds.rb:257
+  [1m[35m (2.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:257
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:264
+  [1m[36mWord Create (1.0ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Guitar"], ["image_items", "guitar.svg"], ["definition", "A stringed instrument with a long neck and five, six, or twelve strings that are strummed or plucked."], ["character", "G"], ["created_at", "2022-03-16 00:19:20.377420"], ["updated_at", "2022-03-16 00:19:20.377420"]]
+  ↳ db/seeds.rb:264
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:264
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:271
+  [1m[36mWord Create (0.7ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "House"], ["image_items", "house.svg"], ["definition", "A building with connected rooms in which people of the same family or group live."], ["character", "H"], ["created_at", "2022-03-16 00:19:20.382847"], ["updated_at", "2022-03-16 00:19:20.382847"]]
+  ↳ db/seeds.rb:271
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:271
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:278
+  [1m[36mWord Create (0.5ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Horse"], ["image_items", "horse.svg"], ["definition", "A large mammal with long legs and hooves. A horse has a long neck with a mane, short hair, and a long tail."], ["character", "H"], ["created_at", "2022-03-16 00:19:20.386294"], ["updated_at", "2022-03-16 00:19:20.386294"]]
+  ↳ db/seeds.rb:278
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:278
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:285
+  [1m[36mWord Create (0.7ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Hammer"], ["image_items", "hammer.svg"], ["definition", "A hand tool with a solid, heavy head on a handle. It is used to pound or to beat something into shape or place."], ["character", "H"], ["created_at", "2022-03-16 00:19:20.390588"], ["updated_at", "2022-03-16 00:19:20.390588"]]
+  ↳ db/seeds.rb:285
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:285
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:292
+  [1m[36mWord Create (0.6ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Ice cream"], ["image_items", "icecream.svg"], ["definition", "A rich, sweet, frozen food made by mixing cream and milk products. Ice cream is made in many different flavors."], ["character", "I"], ["created_at", "2022-03-16 00:19:20.395749"], ["updated_at", "2022-03-16 00:19:20.395749"]]
+  ↳ db/seeds.rb:292
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:292
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:299
+  [1m[36mWord Create (0.7ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Ink"], ["image_items", "ink.svg"], ["definition", "A liquid or paste, usually black or colored, that is used to write or print."], ["character", "I"], ["created_at", "2022-03-16 00:19:20.399235"], ["updated_at", "2022-03-16 00:19:20.399235"]]
+  ↳ db/seeds.rb:299
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:299
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:306
+  [1m[36mWord Create (1.6ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Island"], ["image_items", "island.svg"], ["definition", "An area of land smaller than a continent and surrounded by water on all sides."], ["character", "I"], ["created_at", "2022-03-16 00:19:20.403360"], ["updated_at", "2022-03-16 00:19:20.403360"]]
+  ↳ db/seeds.rb:306
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:306
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:313
+  [1m[36mWord Create (0.6ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Jellyfish"], ["image_items", "jellyfish.svg"], ["definition", "A water animal with a soft body shaped like a bell. Jellyfish have many tentacles hanging down from their bodies. Most kinds of jellyfish live in the ocean."], ["character", "J"], ["created_at", "2022-03-16 00:19:20.408342"], ["updated_at", "2022-03-16 00:19:20.408342"]]
+  ↳ db/seeds.rb:313
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:313
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:320
+  [1m[36mWord Create (0.7ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Jeans"], ["image_items", "jeans.svg"], ["definition", "Pants made from a heavy, often blue, cotton cloth."], ["character", "J"], ["created_at", "2022-03-16 00:19:20.411631"], ["updated_at", "2022-03-16 00:19:20.411631"]]
+  ↳ db/seeds.rb:320
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:320
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:327
+  [1m[36mWord Create (0.8ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Jupiter"], ["image_items", "jupiter.svg"], ["definition", "The largest planet in the solar system and fifth in distance from the sun."], ["character", "J"], ["created_at", "2022-03-16 00:19:20.416229"], ["updated_at", "2022-03-16 00:19:20.416229"]]
+  ↳ db/seeds.rb:327
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:327
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:334
+  [1m[36mWord Create (0.8ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "King"], ["image_items", "king.svg"], ["definition", "A male head of a royal family who rules a country for life."], ["character", "K"], ["created_at", "2022-03-16 00:19:20.421423"], ["updated_at", "2022-03-16 00:19:20.421423"]]
+  ↳ db/seeds.rb:334
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:334
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:341
+  [1m[36mWord Create (0.6ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Koala"], ["image_items", "koala.svg"], ["definition", "A mammal with gray fur, round ears, and a short black nose. Koalas are marsupials and live in trees."], ["character", "K"], ["created_at", "2022-03-16 00:19:20.426267"], ["updated_at", "2022-03-16 00:19:20.426267"]]
+  ↳ db/seeds.rb:341
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:341
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:348
+  [1m[36mWord Create (0.6ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Kiwi"], ["image_items", "kiwi.svg"], ["definition", "A small oval fruit that is good to eat. Kiwis have brown skin and green flesh."], ["character", "K"], ["created_at", "2022-03-16 00:19:20.429763"], ["updated_at", "2022-03-16 00:19:20.429763"]]
+  ↳ db/seeds.rb:348
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:348
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:355
+  [1m[36mWord Create (0.6ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Lion"], ["image_items", "lion.svg"], ["definition", "A large, very strong mammal with short tan fur. Male lions have a mane of longer hair around the neck and head. "], ["character", "L"], ["created_at", "2022-03-16 00:19:20.432926"], ["updated_at", "2022-03-16 00:19:20.432926"]]
+  ↳ db/seeds.rb:355
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:355
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:362
+  [1m[36mWord Create (0.6ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Lemon"], ["image_items", "lemon.svg"], ["definition", "A small citrus fruit with yellow skin and sour juice."], ["character", "L"], ["created_at", "2022-03-16 00:19:20.435689"], ["updated_at", "2022-03-16 00:19:20.435689"]]
+  ↳ db/seeds.rb:362
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:362
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:369
+  [1m[36mWord Create (0.6ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Ladybug"], ["image_items", "ladybug.svg"], ["definition", "A small, round beetle that is red or orange with black spots."], ["character", "L"], ["created_at", "2022-03-16 00:19:20.438730"], ["updated_at", "2022-03-16 00:19:20.438730"]]
+  ↳ db/seeds.rb:369
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:369
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:376
+  [1m[36mWord Create (0.8ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Monkey"], ["image_items", "monkey.svg"], ["definition", "A small mammal that is one of the primates. Monkeys have very flexible hands and feet."], ["character", "M"], ["created_at", "2022-03-16 00:19:20.442591"], ["updated_at", "2022-03-16 00:19:20.442591"]]
+  ↳ db/seeds.rb:376
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:376
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:383
+  [1m[36mWord Create (0.7ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Mango"], ["image_items", "mango.svg"], ["definition", "A sweet, juicy fruit with a long shape and smooth yellow-orange skin."], ["character", "M"], ["created_at", "2022-03-16 00:19:20.446151"], ["updated_at", "2022-03-16 00:19:20.446151"]]
+  ↳ db/seeds.rb:383
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:383
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:390
+  [1m[36mWord Create (0.6ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Mushroom"], ["image_items", "mushroom.svg"], ["definition", "A fungus with a stalk and a cap that looks like a small umbrella. Some kinds of mushrooms can be eaten; other kinds are poisonous."], ["character", "M"], ["created_at", "2022-03-16 00:19:20.449177"], ["updated_at", "2022-03-16 00:19:20.449177"]]
+  ↳ db/seeds.rb:390
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:390
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:398
+  [1m[36mWord Create (0.5ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Noodles"], ["image_items", "noodles.svg"], ["definition", "A flat, narrow strip of dough that has been dried. Noodles are boiled in water to make them soft for eating."], ["character", "N"], ["created_at", "2022-03-16 00:19:20.452436"], ["updated_at", "2022-03-16 00:19:20.452436"]]
+  ↳ db/seeds.rb:398
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:398
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:405
+  [1m[36mWord Create (0.9ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Nose"], ["image_items", "nose.svg"], ["definition", "The part of the face on people and certain animals through which they breathe and smell."], ["character", "N"], ["created_at", "2022-03-16 00:19:20.455206"], ["updated_at", "2022-03-16 00:19:20.455206"]]
+  ↳ db/seeds.rb:405
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:405
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:412
+  [1m[36mWord Create (0.6ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Nurse"], ["image_items", "nurse.svg"], ["definition", "A person who is trained to care for sick and injured people."], ["character", "N"], ["created_at", "2022-03-16 00:19:20.458273"], ["updated_at", "2022-03-16 00:19:20.458273"]]
+  ↳ db/seeds.rb:412
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:412
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:419
+  [1m[36mWord Create (0.8ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Octopus"], ["image_items", "octopus.svg"], ["definition", "A sea animal with a soft, rounded body and eight long tentacles. "], ["character", "O"], ["created_at", "2022-03-16 00:19:20.461466"], ["updated_at", "2022-03-16 00:19:20.461466"]]
+  ↳ db/seeds.rb:419
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:419
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:426
+  [1m[36mWord Create (0.7ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Orange"], ["image_items", "orange.svg"], ["definition", "A round fruit with a reddish yellow peel. It is sweet and juicy on the inside."], ["character", "O"], ["created_at", "2022-03-16 00:19:20.466455"], ["updated_at", "2022-03-16 00:19:20.466455"]]
+  ↳ db/seeds.rb:426
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:426
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:433
+  [1m[36mWord Create (0.8ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Owl"], ["image_items", "owl.svg"], ["definition", "A bird with large eyes set in front of a large head, a strong, hooked beak, and strong, sharp claws. Owls are most active at night and hunt other animals for food."], ["character", "O"], ["created_at", "2022-03-16 00:19:20.470743"], ["updated_at", "2022-03-16 00:19:20.470743"]]
+  ↳ db/seeds.rb:433
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:433
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:440
+  [1m[36mWord Create (0.7ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Pig"], ["image_items", "pig.svg"], ["definition", "An animal with a wide, flat nose, four short legs, a thick body, and a short, curly tail. Pigs are mammals with hooves."], ["character", "P"], ["created_at", "2022-03-16 00:19:20.474416"], ["updated_at", "2022-03-16 00:19:20.474416"]]
+  ↳ db/seeds.rb:440
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:440
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:447
+  [1m[36mWord Create (0.7ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Pineapple"], ["image_items", "pineapple.svg"], ["definition", "A large, juicy fruit, shaped like an egg, with sweet yellow flesh. The pineapple grows on a tropical plant."], ["character", "P"], ["created_at", "2022-03-16 00:19:20.477895"], ["updated_at", "2022-03-16 00:19:20.477895"]]
+  ↳ db/seeds.rb:447
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:447
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:454
+  [1m[36mWord Create (0.9ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Pencil"], ["image_items", "pencil.svg"], ["definition", "A long, thin tool used for writing or drawing."], ["character", "P"], ["created_at", "2022-03-16 00:19:20.481615"], ["updated_at", "2022-03-16 00:19:20.481615"]]
+  ↳ db/seeds.rb:454
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:454
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:461
+  [1m[36mWord Create (0.5ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Queen"], ["image_items", "queen.svg"], ["definition", "A female ruler of a country who is not elected but whose mother, father, or relative was the ruler before her."], ["character", "Q"], ["created_at", "2022-03-16 00:19:20.485782"], ["updated_at", "2022-03-16 00:19:20.485782"]]
+  ↳ db/seeds.rb:461
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:461
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:468
+  [1m[36mWord Create (0.5ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Question"], ["image_items", "question.svg"], ["definition", "A sentence that asks for a reply."], ["character", "Q"], ["created_at", "2022-03-16 00:19:20.488741"], ["updated_at", "2022-03-16 00:19:20.488741"]]
+  ↳ db/seeds.rb:468
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:468
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:475
+  [1m[36mWord Create (0.5ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Quick"], ["image_items", "quick.svg"], ["definition", "Moving or acting with speed; fast."], ["character", "Q"], ["created_at", "2022-03-16 00:19:20.491592"], ["updated_at", "2022-03-16 00:19:20.491592"]]
+  ↳ db/seeds.rb:475
+  [1m[35m (0.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:475
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:482
+  [1m[36mWord Create (0.6ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Rabbit"], ["image_items", "rabbit.svg"], ["definition", "A small mammal with long ears and long back legs for running or jumping. Rabbits have soft fur and a short tail."], ["character", "R"], ["created_at", "2022-03-16 00:19:20.494836"], ["updated_at", "2022-03-16 00:19:20.494836"]]
+  ↳ db/seeds.rb:482
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:482
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:489
+  [1m[36mWord Create (0.7ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Robot"], ["image_items", "robot.svg"], ["definition", "A machine that can perform some of the same tasks as a human being."], ["character", "R"], ["created_at", "2022-03-16 00:19:20.498075"], ["updated_at", "2022-03-16 00:19:20.498075"]]
+  ↳ db/seeds.rb:489
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:489
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:496
+  [1m[36mWord Create (0.7ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Rainbow"], ["image_items", "rainbow.svg"], ["definition", "A curved arc of light of many colors across the sky."], ["character", "R"], ["created_at", "2022-03-16 00:19:20.501719"], ["updated_at", "2022-03-16 00:19:20.501719"]]
+  ↳ db/seeds.rb:496
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:496
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:503
+  [1m[36mWord Create (0.6ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Snake"], ["image_items", "snake.svg"], ["definition", "A long, narrow reptile that has scales but no legs."], ["character", "S"], ["created_at", "2022-03-16 00:19:20.505831"], ["updated_at", "2022-03-16 00:19:20.505831"]]
+  ↳ db/seeds.rb:503
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:503
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:510
+  [1m[36mWord Create (0.7ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Sun"], ["image_items", "sun.svg"], ["definition", "The star in the middle of our solar system. The earth and other planets revolve around it and receive heat and light from it."], ["character", "S"], ["created_at", "2022-03-16 00:19:20.509262"], ["updated_at", "2022-03-16 00:19:20.509262"]]
+  ↳ db/seeds.rb:510
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:510
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:517
+  [1m[36mWord Create (1.0ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Strawberry"], ["image_items", "strawberry.svg"], ["definition", "A red, juicy fruit with seeds on the outside."], ["character", "S"], ["created_at", "2022-03-16 00:19:20.513508"], ["updated_at", "2022-03-16 00:19:20.513508"]]
+  ↳ db/seeds.rb:517
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:517
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:524
+  [1m[36mWord Create (0.6ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Teapot"], ["image_items", "teapot.svg"], ["definition", "A covered pot with a spout and handle. A teapot is used to make and serve tea."], ["character", "T"], ["created_at", "2022-03-16 00:19:20.518385"], ["updated_at", "2022-03-16 00:19:20.518385"]]
+  ↳ db/seeds.rb:524
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:524
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:531
+  [1m[36mWord Create (0.6ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Tiger"], ["image_items", "tiger.svg"], ["definition", "A large, very strong mammal with short, yellow-orange fur and black stripes. Tigers are carnivores."], ["character", "T"], ["created_at", "2022-03-16 00:19:20.523995"], ["updated_at", "2022-03-16 00:19:20.523995"]]
+  ↳ db/seeds.rb:531
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:531
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:538
+  [1m[36mWord Create (0.6ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Tree"], ["image_items", "tree.svg"], ["definition", "A woody plant that has a long main trunk and many branches. Trees usually grow quite tall."], ["character", "T"], ["created_at", "2022-03-16 00:19:20.529068"], ["updated_at", "2022-03-16 00:19:20.529068"]]
+  ↳ db/seeds.rb:538
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:538
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:545
+  [1m[36mWord Create (0.6ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Umbrella"], ["image_items", "umbrella.svg"], ["definition", "A screen made of fabric stretched over a folding frame. An umbrella is used to shield against the rain or sun."], ["character", "U"], ["created_at", "2022-03-16 00:19:20.532670"], ["updated_at", "2022-03-16 00:19:20.532670"]]
+  ↳ db/seeds.rb:545
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:545
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:552
+  [1m[36mWord Create (0.6ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Unicorn"], ["image_items", "unicorn.svg"], ["definition", "A mythical animal having the body of a horse and a single, long horn extending from its forehead."], ["character", "U"], ["created_at", "2022-03-16 00:19:20.535860"], ["updated_at", "2022-03-16 00:19:20.535860"]]
+  ↳ db/seeds.rb:552
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:552
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:559
+  [1m[36mWord Create (0.6ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Uniform"], ["image_items", "uniform.svg"], ["definition", "a special suit of clothing worn by all members of a particular group."], ["character", "U"], ["created_at", "2022-03-16 00:19:20.539203"], ["updated_at", "2022-03-16 00:19:20.539203"]]
+  ↳ db/seeds.rb:559
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:559
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:566
+  [1m[36mWord Create (0.6ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Violin"], ["image_items", "violin.svg"], ["definition", "a musical instrument with four strings and no frets. It is held between the chin and shoulder and is played with a bow."], ["character", "V"], ["created_at", "2022-03-16 00:19:20.550342"], ["updated_at", "2022-03-16 00:19:20.550342"]]
+  ↳ db/seeds.rb:566
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:566
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:573
+  [1m[36mWord Create (0.6ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Volcano"], ["image_items", "volcano.svg"], ["definition", "An opening in the earths crust through which melted rock, ash, and gases are forced out."], ["character", "V"], ["created_at", "2022-03-16 00:19:20.553512"], ["updated_at", "2022-03-16 00:19:20.553512"]]
+  ↳ db/seeds.rb:573
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:573
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:580
+  [1m[36mWord Create (0.6ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Vegetables"], ["image_items", "vegetables.svg"], ["definition", "A plant or part of a plant, such as carrots, beans, or lettuce, that is used for food."], ["character", "V"], ["created_at", "2022-03-16 00:19:20.557365"], ["updated_at", "2022-03-16 00:19:20.557365"]]
+  ↳ db/seeds.rb:580
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:580
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:587
+  [1m[36mWord Create (1.3ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Whistle"], ["image_items", "whistle.svg"], ["definition", "To make shrill high sounds by forcing air through a small opening in the lips or a device."], ["character", "W"], ["created_at", "2022-03-16 00:19:20.561794"], ["updated_at", "2022-03-16 00:19:20.561794"]]
+  ↳ db/seeds.rb:587
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:587
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:594
+  [1m[36mWord Create (0.8ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Whale"], ["image_items", "whale.svg"], ["definition", "A very large mammal that lives in the water. Most kinds of whales live in the ocean."], ["character", "W"], ["created_at", "2022-03-16 00:19:20.567687"], ["updated_at", "2022-03-16 00:19:20.567687"]]
+  ↳ db/seeds.rb:594
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:594
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:601
+  [1m[36mWord Create (0.8ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Watermelon"], ["image_items", "watermelon.svg"], ["definition", "A large, round fruit with a green rind and sweet pulp that is red or pink. Watermelons have many seeds."], ["character", "W"], ["created_at", "2022-03-16 00:19:20.572371"], ["updated_at", "2022-03-16 00:19:20.572371"]]
+  ↳ db/seeds.rb:601
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:601
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:608
+  [1m[36mWord Create (0.8ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "X-ray"], ["image_items", "xray.svg"], ["definition", "A beam of high-energy radiation that is able to pass through many kinds of solid material."], ["character", "X"], ["created_at", "2022-03-16 00:19:20.577297"], ["updated_at", "2022-03-16 00:19:20.577297"]]
+  ↳ db/seeds.rb:608
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:608
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:615
+  [1m[36mWord Create (0.7ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Xylophone"], ["image_items", "xylophone.svg"], ["definition", "A percussion instrument composed of a series of metal or wooden bars."], ["character", "X"], ["created_at", "2022-03-16 00:19:20.582444"], ["updated_at", "2022-03-16 00:19:20.582444"]]
+  ↳ db/seeds.rb:615
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:615
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:622
+  [1m[36mWord Create (0.7ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "X-axis"], ["image_items", "x-axis"], ["definition", "In three dimensions, the axis along which the x ordinates are measured and at which the y and z ordinates are zero."], ["character", "X"], ["created_at", "2022-03-16 00:19:20.586111"], ["updated_at", "2022-03-16 00:19:20.586111"]]
+  ↳ db/seeds.rb:622
+  [1m[35m (0.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:622
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:629
+  [1m[36mWord Create (0.8ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Yogurt"], ["image_items", "yogurt.svg"], ["definition", "A soft food that is made from sour milk and often flavored or sweetened with fruit."], ["character", "Y"], ["created_at", "2022-03-16 00:19:20.589601"], ["updated_at", "2022-03-16 00:19:20.589601"]]
+  ↳ db/seeds.rb:629
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:629
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:636
+  [1m[36mWord Create (0.6ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Yacht"], ["image_items", "yacht.svg"], ["definition", "A small ship used for private trips or racing."], ["character", "Y"], ["created_at", "2022-03-16 00:19:20.593044"], ["updated_at", "2022-03-16 00:19:20.593044"]]
+  ↳ db/seeds.rb:636
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:636
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:643
+  [1m[36mWord Create (0.7ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Yoyo"], ["image_items", "yoyo.svg"], ["definition", "A toy made of two thick wooden or plastic disks connected by a peg around which a string is tied."], ["character", "Y"], ["created_at", "2022-03-16 00:19:20.596657"], ["updated_at", "2022-03-16 00:19:20.596657"]]
+  ↳ db/seeds.rb:643
+  [1m[35m (0.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:643
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:650
+  [1m[36mWord Create (0.7ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Zoo"], ["image_items", "zoo.svg"], ["definition", "A place where living animals, especially wild ones, are kept for people to look at."], ["character", "Z"], ["created_at", "2022-03-16 00:19:20.600816"], ["updated_at", "2022-03-16 00:19:20.600816"]]
+  ↳ db/seeds.rb:650
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:650
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:657
+  [1m[36mWord Create (0.7ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Zebra"], ["image_items", "zebra.svg"], ["definition", "a large mammal with a striped coat, long legs, and hooves. Zebras are closely related to horses but have shorter manes."], ["character", "Z"], ["created_at", "2022-03-16 00:19:20.604281"], ["updated_at", "2022-03-16 00:19:20.604281"]]
+  ↳ db/seeds.rb:657
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:657
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:664
+  [1m[36mWord Create (0.7ms)[0m  [1m[32mINSERT INTO "words" ("item", "image_items", "definition", "character", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["item", "Zucchini"], ["image_items", "zucchini.svg"], ["definition", "A type of summer squash that is shaped like a cucumber and has a smooth, dark green skin."], ["character", "Z"], ["created_at", "2022-03-16 00:19:20.607428"], ["updated_at", "2022-03-16 00:19:20.607428"]]
+  ↳ db/seeds.rb:664
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:664
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "words"[0m
+  ↳ db/seeds.rb:672

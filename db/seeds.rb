@@ -39,357 +39,357 @@ Word.destroy_all
 
 w1 = Word.create!(
   item: 'Apple',
-  image_items: '',
+  image_items: 'apple.svg',
   definition: 'An apple is a type of fruit that is grown on an apple tree.',
   character: 'A'
 );
 
 w2 = Word.create!(
   item: 'Ant',
-  image_items: '',
+  image_items: 'ant.svg',
   definition: 'Ant, any of approximately 10,000 species of insects that are social in habit and live together in organized colonies.',
   character: 'A'
 );
 
 w3 = Word.create!(
   item: 'Aeroplane',
-  image_items: '',
+  image_items: 'airplane.svg',
   definition: 'A machine with wings that can fly in the sky',
   character: 'A'
 );
 
 w4 = Word.create!(
   item: 'Angel',
-  image_items: '',
+  image_items: 'angel.svg',
   definition: 'A spiritual being who acts as a servant or messenger of God.',
   character: 'A'
 );
 
 w5 = Word.create!(
   item: 'Angry',
-  image_items: '',
+  image_items: 'angry.svg',
   definition: 'Angry is an emotion.',
   character: 'A'
 );
 
 w6 = Word.create!(
   item: 'Banana',
-  image_items: '',
+  image_items: 'banana.svg',
   definition: 'a long, curved fruit that has a thick yellow skin. It grows in bunches on a tall tropical plant.',
   character: 'B'
 );
 
 w7 = Word.create!(
   item: 'Bee',
-  image_items: '',
+  image_items: 'bee.svg',
   definition: 'An insect with a hairy body, four wings, and sometimes a stinger. Some kinds of bees live in social groups, and some live alone.',
   character: 'B'
 );
 
 w8 = Word.create!(
   item: 'Bus',
-  image_items: '',
+  image_items: 'bus.svg',
   definition: 'A large motor vehicle carrying passengers by road, typically one serving the public on a fixed route and for a fare.',
   character: 'B'
 );
 
 w9 = Word.create!(
   item: 'Bear',
-  image_items: '',
+  image_items: 'bear.svg',
   definition: 'A large, heavy mammal that walks on the soles of its feet, having thick fur and a very short tail. ',
   character: 'B'
 );
 
 w10 = Word.create!(
   item: 'BALL',
-  image_items: '',
+  image_items: 'ball.svg',
   definition: 'A ball is a round object that will bounce',
   character: 'B'
 );
 
 w11 = Word.create!(
   item: 'Cat',
-  image_items: '',
+  image_items: 'cat.svg',
   definition: 'A small, furry mammal with whiskers, short ears, and a long tail.',
   character: 'C'
 );
 
 w12 = Word.create!(
   item: 'Caterpillar',
-  image_items: '',
+  image_items: 'caterpillar.svg',
   definition: 'Caterpillars are round and long like worms, but have six legs. They may be brightly colored.',
   character: 'C'
 );
 
 w13 = Word.create!(
   item: 'Car',
-  image_items: '',
+  image_items: 'car.svg',
   definition: 'A four-wheeled road vehicle that is powered by an engine and is able to carry a small number of people.',
   character: 'C'
 );
 
 w14 = Word.create!(
   item: 'Cake',
-  image_items: '',
+  image_items: 'cake.svg',
   definition: 'An item of soft sweet food made from a mixture of flour, fat, eggs, sugar, and other ingredients, baked and sometimes iced or decorated.',
   character: 'C'
 );
 
 w15 = Word.create!(
   item: 'Castle',
-  image_items: '',
+  image_items: 'castle.svg',
   definition: 'A large, strong building where a noble lived with his family.',
   character: 'C'
 );
 
 w16 = Word.create!(
   item: 'Dog',
-  image_items: '',
+  image_items: 'dog.svg',
   definition: 'A furry animal with four legs, a pointed nose, and a tail.',
   character: 'D'
 );
 
 w17 = Word.create!(
   item: 'Dinosaur',
-  image_items: '',
+  image_items: 'dinosaur.svg',
   definition: 'A fossil reptile of the Mesozoic era, in many species reaching an enormous size.',
   character: 'D'
 );
 
 w18 = Word.create!(
   item: 'Door',
-  image_items: '',
+  image_items: 'door.svg',
   definition: 'An opening through which one enters or leaves a room or building.',
   character: 'D'
 );
 
 w19 = Word.create!(
   item: 'Dumplings',
-  image_items: '',
+  image_items: 'dumplings.svg',
   definition: 'A lump of boiled dough, often served in soup with stewed meat.',
   character: 'D'
 );
 
 w20 = Word.create!(
   item: 'Duck',
-  image_items: '',
+  image_items: 'duck.svg',
   definition: 'A bird that lives in or near water and has webbed feet for swimming and a large flat bill.',
   character: 'D'
 );
 
 w21 = Word.create!(
-  item: 'Egg',
-  image_items: '',
+  item: 'Eggs',
+  image_items: 'egg.svg',
   definition: 'An oval or round object laid by a female bird, reptile, fish.',
   character: 'E'
 );
 
 w22 = Word.create!(
   item: 'Elephant',
-  image_items: '',
+  image_items: 'elephant.svg',
   definition: 'An enormous mammal with a very long nose called a trunk.',
   character: 'E'
 );
 
 w23 = Word.create!(
   item: 'Earth',
-  image_items: '',
+  image_items: 'earth.svg',
   definition: 'The fifth largest planet in our solar system and the third in distance from the sun.',
   character: 'E'
 );
 
 w24 = Word.create!(
   item: 'Envelope',
-  image_items: '',
+  image_items: 'envelope.svg',
   definition: 'A folded paper covering or container usually used to mail letters.',
   character: 'E'
 );
 
 w25 = Word.create!(
   item: 'Elf',
-  image_items: '',
+  image_items: 'elf.svg',
   definition: 'An imaginary small creature that looks like a human and has magical powers.',
   character: 'E'
 );
 
 w26 = Word.create!(
   item: 'Fish',
-  image_items: '',
+  image_items: 'fish.svg',
   definition: 'An animal that lives in water and has fins for swimming and gills for breathing.',
   character: 'F'
 );
 
 w27 = Word.create!(
   item: 'Flower',
-  image_items: '',
+  image_items: 'flower.svg',
   definition: 'The part of a plant that has petals and that makes fruit or seeds; blossom. Flowers often have a pleasant smell.',
   character: 'F'
 );
 
 w28 = Word.create!(
   item: 'Fox',
-  image_items: '',
+  image_items: 'fox.svg',
   definition: 'A wild mammal that has a pointed nose, pointed ears, and a bushy tail.',
   character: 'F'
 );
 
 w29 = Word.create!(
   item: 'Frog',
-  image_items: '',
+  image_items: 'frog.svg',
   definition: 'A small, jumping animal with smooth, moist skin, long back legs, webbed feet, and no tail.',
   character: 'F'
 );
 
 w30 = Word.create!(
   item: 'Fire Engine',
-  image_items:'vecteezy_fire-truck-rescue-in-flat-style-vector-illustration_6169563.jpg',
+  image_items:'fire-engine.svg',
   definition: 'A large truck that carries firefighters and their tools to a fire. Fire engines usually have a ladder and a pump for spraying water or chemicals used to put out fires.',
   character: 'F'
 );
 
 w31 = Word.create!(
   item: 'Grapes',
-  image_items: '',
+  image_items: 'grapes.svg',
   definition: 'A small, juicy fruit, with a smooth skin that is either green, red, or purple. Grapes grow in bunches on woody vines.',
   character: 'G'
 );
 
 w32 = Word.create!(
   item: 'Giraffe',
-  image_items: '',
+  image_items: 'giraffe.svg',
   definition: 'A mammal with a very long neck, long legs, and hooves. Giraffes have short horns covered with fur.',
   character: 'G'
 );
 
 w33 = Word.create!(
   item: 'Guitar',
-  image_items: '',
+  image_items: 'guitar.svg',
   definition: 'A stringed instrument with a long neck and five, six, or twelve strings that are strummed or plucked.',
   character: 'G'
 );
 
 w34 = Word.create!(
   item: 'House',
-  image_items: '',
+  image_items: 'house.svg',
   definition: 'A building with connected rooms in which people of the same family or group live.',
   character: 'H'
 );
 
 w35 = Word.create!(
   item: 'Horse',
-  image_items: '',
+  image_items: 'horse.svg',
   definition: 'A large mammal with long legs and hooves. A horse has a long neck with a mane, short hair, and a long tail.',
   character: 'H'
 );
 
 w36 = Word.create!(
   item: 'Hammer',
-  image_items: '',
+  image_items: 'hammer.svg',
   definition: 'A hand tool with a solid, heavy head on a handle. It is used to pound or to beat something into shape or place.',
   character: 'H'
 );
 
 w37 = Word.create!(
   item: 'Ice cream',
-  image_items: '',
+  image_items: 'icecream.svg',
   definition: 'A rich, sweet, frozen food made by mixing cream and milk products. Ice cream is made in many different flavors.',
   character: 'I'
 );
 
 w38 = Word.create!(
   item: 'Ink',
-  image_items: '',
+  image_items: 'ink.svg',
   definition: 'A liquid or paste, usually black or colored, that is used to write or print.',
   character: 'I'
 );
 
 w39 = Word.create!(
   item: 'Island',
-  image_items: '',
+  image_items: 'island.svg',
   definition: 'An area of land smaller than a continent and surrounded by water on all sides.',
   character: 'I'
 );
 
 w40 = Word.create!(
   item: 'Jellyfish',
-  image_items: '',
+  image_items: 'jellyfish.svg',
   definition: 'A water animal with a soft body shaped like a bell. Jellyfish have many tentacles hanging down from their bodies. Most kinds of jellyfish live in the ocean.',
   character: 'J'
 );
 
 w41 = Word.create!(
   item: 'Jeans',
-  image_items: '',
+  image_items: 'jeans.svg',
   definition: 'Pants made from a heavy, often blue, cotton cloth.',
   character: 'J'
 );
 
 w42 = Word.create!(
   item: 'Jupiter',
-  image_items: '',
+  image_items: 'jupiter.svg',
   definition: 'The largest planet in the solar system and fifth in distance from the sun.',
   character: 'J'
 );
 
 w43 = Word.create!(
   item: 'King',
-  image_items: '',
+  image_items: 'king.svg',
   definition: 'A male head of a royal family who rules a country for life.',
   character: 'K'
 );
 
 w44 = Word.create!(
   item: 'Koala',
-  image_items: '',
+  image_items: 'koala.svg',
   definition: 'A mammal with gray fur, round ears, and a short black nose. Koalas are marsupials and live in trees.',
   character: 'K'
 );
 
 w45 = Word.create!(
   item: 'Kiwi',
-  image_items: '',
+  image_items: 'kiwi.svg',
   definition: 'A small oval fruit that is good to eat. Kiwis have brown skin and green flesh.',
   character: 'K'
 );
 
 w46 = Word.create!(
   item: 'Lion',
-  image_items: '',
+  image_items: 'lion.svg',
   definition: 'A large, very strong mammal with short tan fur. Male lions have a mane of longer hair around the neck and head. ',
   character: 'L'
 );
 
 w47 = Word.create!(
   item: 'Lemon',
-  image_items: '',
+  image_items: 'lemon.svg',
   definition: 'A small citrus fruit with yellow skin and sour juice.',
   character: 'L'
 );
 
 w48 = Word.create!(
   item: 'Ladybug',
-  image_items: '',
+  image_items: 'ladybug.svg',
   definition: 'A small, round beetle that is red or orange with black spots.',
   character: 'L'
 );
 
 w49 = Word.create!(
   item: 'Monkey',
-  image_items: '',
+  image_items: 'monkey.svg',
   definition: 'A small mammal that is one of the primates. Monkeys have very flexible hands and feet.',
   character: 'M'
 );
 
 w50 = Word.create!(
   item: 'Mango',
-  image_items: '',
+  image_items: 'mango.svg',
   definition: 'A sweet, juicy fruit with a long shape and smooth yellow-orange skin.',
   character: 'M'
 );
 
 w51 = Word.create!(
   item: 'Mushroom',
-  image_items: '',
+  image_items: 'mushroom.svg',
   definition: 'A fungus with a stalk and a cap that looks like a small umbrella. Some kinds of mushrooms can be eaten; other kinds are poisonous.',
   character: 'M'
 );
@@ -397,273 +397,273 @@ w51 = Word.create!(
 
 w52 = Word.create!(
   item: 'Noodles',
-  image_items: '',
+  image_items: 'noodles.svg',
   definition: 'A flat, narrow strip of dough that has been dried. Noodles are boiled in water to make them soft for eating.',
   character: 'N'
 );
 
 w53 = Word.create!(
   item: 'Nose',
-  image_items: '',
+  image_items: 'nose.svg',
   definition: 'The part of the face on people and certain animals through which they breathe and smell.',
   character: 'N'
 );
 
 w54 = Word.create!(
   item: 'Nurse',
-  image_items: '',
+  image_items: 'nurse.svg',
   definition: 'A person who is trained to care for sick and injured people.',
   character: 'N'
 );
 
 w55 = Word.create!(
   item: 'Octopus',
-  image_items: '',
+  image_items: 'octopus.svg',
   definition: 'A sea animal with a soft, rounded body and eight long tentacles. ',
   character: 'O'
 );
 
 w56 = Word.create!(
   item: 'Orange',
-  image_items: '',
+  image_items: 'orange.svg',
   definition: 'A round fruit with a reddish yellow peel. It is sweet and juicy on the inside.',
   character: 'O'
 );
 
 w57 = Word.create!(
   item: 'Owl',
-  image_items: '',
+  image_items: 'owl.svg',
   definition: 'A bird with large eyes set in front of a large head, a strong, hooked beak, and strong, sharp claws. Owls are most active at night and hunt other animals for food.',
   character: 'O'
 );
 
 w58 = Word.create!(
   item: 'Pig',
-  image_items: '',
+  image_items: 'pig.svg',
   definition: 'An animal with a wide, flat nose, four short legs, a thick body, and a short, curly tail. Pigs are mammals with hooves.',
   character: 'P'
 );
 
 w59 = Word.create!(
   item: 'Pineapple',
-  image_items: '',
+  image_items: 'pineapple.svg',
   definition: 'A large, juicy fruit, shaped like an egg, with sweet yellow flesh. The pineapple grows on a tropical plant.',
   character: 'P'
 );
 
 w60 = Word.create!(
   item: 'Pencil',
-  image_items: '',
+  image_items: 'pencil.svg',
   definition: 'A long, thin tool used for writing or drawing.',
   character: 'P'
 );
 
 w61 = Word.create!(
   item: 'Queen',
-  image_items: '',
+  image_items: 'queen.svg',
   definition: 'A female ruler of a country who is not elected but whose mother, father, or relative was the ruler before her.',
   character: 'Q'
 );
 
 w62 = Word.create!(
   item: 'Question',
-  image_items: '',
+  image_items: 'question.svg',
   definition: 'A sentence that asks for a reply.',
   character: 'Q'
 );
 
 w63 = Word.create!(
   item: 'Quick',
-  image_items: '',
+  image_items: 'quick.svg',
   definition: 'Moving or acting with speed; fast.',
   character: 'Q'
 );
 
 w64 = Word.create!(
   item: 'Rabbit',
-  image_items: '',
+  image_items: 'rabbit.svg',
   definition: 'A small mammal with long ears and long back legs for running or jumping. Rabbits have soft fur and a short tail.',
   character: 'R'
 );
 
 w65 = Word.create!(
   item: 'Robot',
-  image_items: '',
+  image_items: 'robot.svg',
   definition: 'A machine that can perform some of the same tasks as a human being.',
   character: 'R'
 );
 
 w66 = Word.create!(
   item: 'Rainbow',
-  image_items: '',
+  image_items: 'rainbow.svg',
   definition: 'A curved arc of light of many colors across the sky.',
   character: 'R'
 );
 
 w67 = Word.create!(
   item: 'Snake',
-  image_items: '',
+  image_items: 'snake.svg',
   definition: 'A long, narrow reptile that has scales but no legs.',
   character: 'S'
 );
 
 w68 = Word.create!(
   item: 'Sun',
-  image_items: '',
+  image_items: 'sun.svg',
   definition: 'The star in the middle of our solar system. The earth and other planets revolve around it and receive heat and light from it.',
   character: 'S'
 );
 
 w69 = Word.create!(
   item: 'Strawberry',
-  image_items: '',
+  image_items: 'strawberry.svg',
   definition: 'A red, juicy fruit with seeds on the outside.',
   character: 'S'
 );
 
 w70 = Word.create!(
   item: 'Teapot',
-  image_items: '',
+  image_items: 'teapot.svg',
   definition: 'A covered pot with a spout and handle. A teapot is used to make and serve tea.',
   character: 'T'
 );
 
 w71 = Word.create!(
   item: 'Tiger',
-  image_items: '',
+  image_items: 'tiger.svg',
   definition: 'A large, very strong mammal with short, yellow-orange fur and black stripes. Tigers are carnivores.',
   character: 'T'
 );
 
 w72 = Word.create!(
   item: 'Tree',
-  image_items: '',
+  image_items: 'tree.svg',
   definition: 'A woody plant that has a long main trunk and many branches. Trees usually grow quite tall.',
   character: 'T'
 );
 
 w73 = Word.create!(
   item: 'Umbrella',
-  image_items: '',
+  image_items: 'umbrella.svg',
   definition: 'A screen made of fabric stretched over a folding frame. An umbrella is used to shield against the rain or sun.',
   character: 'U'
 );
 
 w74 = Word.create!(
   item: 'Unicorn',
-  image_items: '',
+  image_items: 'unicorn.svg',
   definition: 'A mythical animal having the body of a horse and a single, long horn extending from its forehead.',
   character: 'U'
 );
 
 w75 = Word.create!(
   item: 'Uniform',
-  image_items: '',
+  image_items: 'uniform.svg',
   definition: 'a special suit of clothing worn by all members of a particular group.',
   character: 'U'
 );
 
 w76 = Word.create!(
   item: 'Violin',
-  image_items: '',
+  image_items: 'violin.svg',
   definition: 'a musical instrument with four strings and no frets. It is held between the chin and shoulder and is played with a bow.',
   character: 'V'
 );
 
 w77 = Word.create!(
   item: 'Volcano',
-  image_items: '',
+  image_items: 'volcano.svg',
   definition: 'An opening in the earths crust through which melted rock, ash, and gases are forced out.',
   character: 'V'
 );
 
 w78 = Word.create!(
   item: 'Vegetables',
-  image_items: '',
+  image_items: 'vegetables.svg',
   definition: 'A plant or part of a plant, such as carrots, beans, or lettuce, that is used for food.',
   character: 'V'
 );
 
 w79 = Word.create!(
   item: 'Whistle',
-  image_items: '',
+  image_items: 'whistle.svg',
   definition: 'To make shrill high sounds by forcing air through a small opening in the lips or a device.',
   character: 'W'
 );
 
 w80 = Word.create!(
   item: 'Whale',
-  image_items: '',
+  image_items: 'whale.svg',
   definition: 'A very large mammal that lives in the water. Most kinds of whales live in the ocean.',
   character: 'W'
 );
 
 w81 = Word.create!(
   item: 'Watermelon',
-  image_items: '',
+  image_items: 'watermelon.svg',
   definition: 'A large, round fruit with a green rind and sweet pulp that is red or pink. Watermelons have many seeds.',
   character: 'W'
 );
 
 w82 = Word.create!(
   item: 'X-ray',
-  image_items: '',
+  image_items: 'xray.svg',
   definition: 'A beam of high-energy radiation that is able to pass through many kinds of solid material.',
   character: 'X'
 );
 
 w83 = Word.create!(
   item: 'Xylophone',
-  image_items: '',
+  image_items: 'xylophone.svg',
   definition: 'A percussion instrument composed of a series of metal or wooden bars.',
   character: 'X'
 );
 
 w84 = Word.create!(
   item: 'X-axis',
-  image_items: '',
+  image_items: 'x-axis',
   definition: 'In three dimensions, the axis along which the x ordinates are measured and at which the y and z ordinates are zero.',
   character: 'X'
 );
 
 w85 = Word.create!(
   item: 'Yogurt',
-  image_items: '',
+  image_items: 'yogurt.svg',
   definition: 'A soft food that is made from sour milk and often flavored or sweetened with fruit.',
   character: 'Y'
 );
 
 w86 = Word.create!(
   item: 'Yacht',
-  image_items: '',
+  image_items: 'yacht.svg',
   definition: 'A small ship used for private trips or racing.',
   character: 'Y'
 );
 
 w87 = Word.create!(
   item: 'Yoyo',
-  image_items: '',
+  image_items: 'yoyo.svg',
   definition: 'A toy made of two thick wooden or plastic disks connected by a peg around which a string is tied.',
   character: 'Y'
 );
 
 w88 = Word.create!(
   item: 'Zoo',
-  image_items: '',
+  image_items: 'zoo.svg',
   definition: 'A place where living animals, especially wild ones, are kept for people to look at.',
   character: 'Z'
 );
 
 w89 = Word.create!(
   item: 'Zebra',
-  image_items: '',
+  image_items: 'zebra.svg',
   definition: 'a large mammal with a striped coat, long legs, and hooves. Zebras are closely related to horses but have shorter manes.',
   character: 'Z'
 );
 
 w90 = Word.create!(
   item: 'Zucchini',
-  image_items: '',
+  image_items: 'zucchini.svg',
   definition: 'A type of summer squash that is shaped like a cucumber and has a smooth, dark green skin.',
   character: 'Z'
 );
