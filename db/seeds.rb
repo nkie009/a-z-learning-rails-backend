@@ -118,7 +118,7 @@ w9 = Word.create!(
 );
 
 w10 = Word.create!(
-  item: 'BALL',
+  item: 'Ball',
   image_items: 'ball.svg',
   definition: 'A ball is a round object that will bounce',
   character: 'B',
@@ -677,7 +677,7 @@ w71 = Word.create!(
 );
 
 w72 = Word.create!(
-  item: 'Tree',
+  item: 'Trees',
   image_items: 'tree.svg',
   definition: 'A woody plant that has a long main trunk and many branches. Trees usually grow quite tall.',
   character: 'T',
