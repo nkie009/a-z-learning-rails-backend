@@ -1,24 +1,13 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# a-z learning - Backend
 
-Things you may want to cover:
+## Features
 
-* Ruby version
+This is the a-z learning - Backend, which renders json data and provides api data to the front end.
 
-* System dependencies
+## Tech
+- Ruby on rails
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Wish List
+- Would like to set up a admin interface, which allows admin to add or remove data / assets.
