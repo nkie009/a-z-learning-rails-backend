@@ -10,5 +10,5 @@ This is the a-z learning - Backend, which renders json data and provides api dat
 - Ruby on rails
 
 
-## Wish List
+## Wishlist
 - Would like to set up an admin interface, which allows admin to add or remove data / assets.
