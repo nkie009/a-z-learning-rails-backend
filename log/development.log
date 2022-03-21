@@ -9137,3 +9137,117 @@ Processing by AlphabetsController#index as HTML
 Completed 200 OK in 370ms (Views: 271.3ms | ActiveRecord: 50.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2022-03-21 12:08:46 +1100
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/Phoebe/.rvm/gems/ruby-2.7.0/gems/railties-5.2.7/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/Phoebe/.rvm/gems/ruby-2.7.0/gems/railties-5.2.7/lib/rails/templates/rails/welcome/index.html.erb (45.9ms)
+Completed 200 OK in 84ms (Views: 72.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/games/wordmatch" for 127.0.0.1 at 2022-03-21 12:09:20 +1100
+Processing by GamesController#word_match as HTML
+  [1m[36mWord Load (51.4ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/controllers/games_controller.rb:4
+Completed 200 OK in 1591ms (Views: 18.0ms | ActiveRecord: 833.5ms)
+
+
+Started GET "/games/wordmatch" for 127.0.0.1 at 2022-03-21 12:09:27 +1100
+Processing by GamesController#word_match as HTML
+  [1m[36mWord Load (5.7ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/controllers/games_controller.rb:4
+Completed 200 OK in 61ms (Views: 9.2ms | ActiveRecord: 5.7ms)
+
+
+Started GET "/games/wordmatch" for 127.0.0.1 at 2022-03-21 12:09:28 +1100
+Processing by GamesController#word_match as HTML
+  [1m[36mWord Load (3.0ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/controllers/games_controller.rb:4
+Completed 200 OK in 86ms (Views: 5.6ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/games/wordmatch" for 127.0.0.1 at 2022-03-21 12:09:30 +1100
+Processing by GamesController#word_match as HTML
+  [1m[36mWord Load (1.1ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/controllers/games_controller.rb:4
+Completed 200 OK in 65ms (Views: 21.9ms | ActiveRecord: 1.1ms)
+
+
+  [1m[36mWord Load (9.1ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  [1m[35m (59.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "words"[0m
+Started GET "/games/wordmatch" for 127.0.0.1 at 2022-03-21 12:26:24 +1100
+Processing by GamesController#word_match as HTML
+  [1m[36mWord Load (23.0ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/controllers/games_controller.rb:5
+Completed 200 OK in 458ms (Views: 58.6ms | ActiveRecord: 105.7ms)
+
+
+Started GET "/games/wordmatch" for 127.0.0.1 at 2022-03-21 12:28:03 +1100
+Processing by GamesController#word_match as HTML
+  [1m[36mWord Load (3.3ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/controllers/games_controller.rb:5
+Completed 200 OK in 347ms (Views: 25.9ms | ActiveRecord: 23.4ms)
+
+
+Started GET "/games/wordmatch" for 127.0.0.1 at 2022-03-21 12:34:32 +1100
+Processing by GamesController#word_match as HTML
+  [1m[36mWord Load (261.5ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/controllers/games_controller.rb:5
+Completed 200 OK in 908ms (Views: 14.9ms | ActiveRecord: 532.5ms)
+
+
+Started GET "/games/wordmatch" for 127.0.0.1 at 2022-03-21 12:34:45 +1100
+Processing by GamesController#word_match as HTML
+  [1m[36mWord Load (1.5ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/controllers/games_controller.rb:5
+Completed 200 OK in 121ms (Views: 7.9ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/games/wordmatch" for 127.0.0.1 at 2022-03-21 12:34:49 +1100
+Processing by GamesController#word_match as HTML
+  [1m[36mWord Load (1.3ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/controllers/games_controller.rb:5
+Completed 200 OK in 68ms (Views: 11.7ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/games/wordmatch" for 127.0.0.1 at 2022-03-21 12:34:55 +1100
+Processing by GamesController#word_match as HTML
+  [1m[36mWord Load (2.7ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/controllers/games_controller.rb:5
+Completed 200 OK in 57ms (Views: 8.2ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/games/wordmatch" for 127.0.0.1 at 2022-03-21 12:34:59 +1100
+Processing by GamesController#word_match as HTML
+  [1m[36mWord Load (0.9ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/controllers/games_controller.rb:5
+Completed 200 OK in 189ms (Views: 30.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/games/wordmatch" for 127.0.0.1 at 2022-03-21 12:36:39 +1100
+Processing by GamesController#word_match as HTML
+  [1m[36mWord Load (4.6ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/controllers/games_controller.rb:5
+Completed 200 OK in 139ms (Views: 3.0ms | ActiveRecord: 51.4ms)
+
+
+Started GET "/games/wordmatch" for 127.0.0.1 at 2022-03-21 12:36:44 +1100
+Processing by GamesController#word_match as HTML
+  [1m[36mWord Load (1.1ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/controllers/games_controller.rb:5
+Completed 200 OK in 12ms (Views: 1.1ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/games/wordmatch" for 127.0.0.1 at 2022-03-21 12:36:47 +1100
+Processing by GamesController#word_match as HTML
+  [1m[36mWord Load (9.7ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/controllers/games_controller.rb:5
+Completed 200 OK in 43ms (Views: 6.1ms | ActiveRecord: 9.7ms)
+
+
+Started GET "/games/wordmatch" for 127.0.0.1 at 2022-03-21 12:36:49 +1100
+Processing by GamesController#word_match as HTML
+  [1m[36mWord Load (1.6ms)[0m  [1m[34mSELECT "words".* FROM "words"[0m
+  ↳ app/controllers/games_controller.rb:5
+Completed 200 OK in 19ms (Views: 4.3ms | ActiveRecord: 1.6ms)
+
+
